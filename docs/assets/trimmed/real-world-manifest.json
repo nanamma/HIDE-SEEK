@@ -1,0 +1,1138 @@
+{
+  "tasks": [
+    {
+      "id": "push-button",
+      "name": "Push button times",
+      "methods": {
+        "pi05": [
+          {
+            "id": "push-button-pi05-pi_async_260925-065355",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/push-button/pi05/pi_async_260925-065355--ecdacf211ce1.mp4",
+            "poster": "assets/real-world/posters/push-button/pi05/pi_async_260925-065355.jpg",
+            "duration_seconds": 191.46666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/push button times/pi05/pi_async_260925-065355.mp4",
+            "original_bytes": 19249297,
+            "processed_bytes": 1700706,
+            "source_sha256": "1d1b7104a3da377dbcf606d276083ed48811dbfc7bba42bc30d4f6d6cf06e5c9",
+            "processed_sha256": "0ad37cf8a85cbfc167c8d9f67afa3e031889f26366f6a6afc360f863c21cf3ed",
+            "poster_sha256": "00a5dd7d80d997099041073f006f45510d47c8bd254d043abf8afefe72b9ca2d",
+            "timing_edit": {
+              "source_duration_seconds": 221.266667,
+              "removed_seconds": 29.8,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-pi05-pi_async_260925-070123",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/push-button/pi05/pi_async_260925-070123--a1850d706dd0.mp4",
+            "poster": "assets/real-world/posters/push-button/pi05/pi_async_260925-070123.jpg",
+            "duration_seconds": 187.33333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/push button times/pi05/pi_async_260925-070123.mp4",
+            "original_bytes": 18823087,
+            "processed_bytes": 1579304,
+            "source_sha256": "429ea97f991be9a17a0db5883552106625260143580e6a77f9931567946687ed",
+            "processed_sha256": "ce195f5480177f20392d9b6383d116b2cbfa20b3103cb0bf219489b6793ff9be",
+            "poster_sha256": "1168b906898649a7bf39a17985a84ca1945f648b6e6c892a434e28665b9db799",
+            "timing_edit": {
+              "source_duration_seconds": 221.666667,
+              "removed_seconds": 34.333333333333336,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "sam2act-plus": [
+          {
+            "id": "push-button-sam2act-plus-20260925-062347-rvt-deployment",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/push-button/sam2act-plus/20260925-062347-rvt-deployment--51e8e7579d96.mp4",
+            "poster": "assets/real-world/posters/push-button/sam2act-plus/20260925-062347-rvt-deployment.jpg",
+            "duration_seconds": 112.5,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SAM2Act+/20260925-062347-rvt-deployment.mp4",
+            "original_bytes": 22453177,
+            "processed_bytes": 1399294,
+            "source_sha256": "805949a82b5262a21d28b0b360363895f5b3e3c7a6e5d39f092a2f9fa2c4aa8a",
+            "processed_sha256": "295e8b69eedadafd6bf457f2ad6e80f6fcf0f9d02f5544139d6e2e4ed1bac158",
+            "poster_sha256": "659911be908fb1e9397e27acd5e07822f76591bc7998fb80ba2393aed2544c1f",
+            "timing_edit": {
+              "source_duration_seconds": 162.6,
+              "removed_seconds": 50.1,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-sam2act-plus-20260925-064256-rvt-deployment",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/push-button/sam2act-plus/20260925-064256-rvt-deployment--c191ce2f5748.mp4",
+            "poster": "assets/real-world/posters/push-button/sam2act-plus/20260925-064256-rvt-deployment.jpg",
+            "duration_seconds": 39.56666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SAM2Act+/20260925-064256-rvt-deployment.mp4",
+            "original_bytes": 5652352,
+            "processed_bytes": 520776,
+            "source_sha256": "0a497d439951e05f542d8efafeee7f87e2de278fe5290648487159068fcb87d3",
+            "processed_sha256": "4ba4ed2cd83d8da010b5253274d4deb7282153b550d45b6750d9bf82709ae50b",
+            "poster_sha256": "ee3aeb8584c14a8d538885a979faea8dbf48903f1f82574ad661803af7e3720c",
+            "timing_edit": {
+              "source_duration_seconds": 39.566667,
+              "removed_seconds": 0.0,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-sam2act-plus-20260925-064548-rvt-deployment",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/push-button/sam2act-plus/20260925-064548-rvt-deployment--641526d48dea.mp4",
+            "poster": "assets/real-world/posters/push-button/sam2act-plus/20260925-064548-rvt-deployment.jpg",
+            "duration_seconds": 122.4,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SAM2Act+/20260925-064548-rvt-deployment.mp4",
+            "original_bytes": 21982878,
+            "processed_bytes": 1497598,
+            "source_sha256": "2b1e0ec7b18a4dac9826b1c692a1e0760b67c358a1d951e50f5e68325037877a",
+            "processed_sha256": "0db8ce3014b97a69288d6cad8885fd4d2089e5df3d551acc74109c8ee36464e3",
+            "poster_sha256": "837239df1427f85d9808fdd26f10d182183631c646ed4c034b190c438558ac50",
+            "timing_edit": {
+              "source_duration_seconds": 159.533333,
+              "removed_seconds": 37.13333333333333,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "seek": [
+          {
+            "id": "push-button-seek-20260921-233641-rvt-deployment",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/push-button/seek/20260921-233641-rvt-deployment--f7d34a7b93ad.mp4",
+            "poster": "assets/real-world/posters/push-button/seek/20260921-233641-rvt-deployment.jpg",
+            "duration_seconds": 30.166666666666668,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SEEK/20260921-233641-rvt-deployment.mp4",
+            "original_bytes": 4898078,
+            "processed_bytes": 372432,
+            "source_sha256": "835b5b5825ec8b506c523520a134b38d3e81bf5e536a03b9635a23bcbf1711db",
+            "processed_sha256": "f2267d934004a0dd285e3445323c06eabac9c47ed38cb9c4f11f724205c20317",
+            "poster_sha256": "6e5fe4970d7d56573ac09565ef1e96cc8bcbc3e13f34f31ddf68312256c7d35f",
+            "timing_edit": {
+              "source_duration_seconds": 35.0,
+              "removed_seconds": 4.833333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-seek-20260925-034728-rvt-deployment",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/push-button/seek/20260925-034728-rvt-deployment--40b62343dd95.mp4",
+            "poster": "assets/real-world/posters/push-button/seek/20260925-034728-rvt-deployment.jpg",
+            "duration_seconds": 32.13333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SEEK/20260925-034728-rvt-deployment.mp4",
+            "original_bytes": 5199839,
+            "processed_bytes": 389902,
+            "source_sha256": "303cf4465aa99ae0fc18e06813cfaeb7466a343f1569f034cfc5fa0113fbd57c",
+            "processed_sha256": "2c3c19412556e73d24a175db203c86df3a41a7d42317b0b90b8e9f7447392004",
+            "poster_sha256": "b6626568d1ae546d7e3c557b34c3470b64a15a2e2c07019dab68a3880ac5a182",
+            "timing_edit": {
+              "source_duration_seconds": 37.4,
+              "removed_seconds": 5.266666666666667,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-seek-20260925-063255-rvt-deployment",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/push-button/seek/20260925-063255-rvt-deployment--2fd144b9fd7a.mp4",
+            "poster": "assets/real-world/posters/push-button/seek/20260925-063255-rvt-deployment.jpg",
+            "duration_seconds": 40.86666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SEEK/20260925-063255-rvt-deployment.mp4",
+            "original_bytes": 7689146,
+            "processed_bytes": 508931,
+            "source_sha256": "a1cc891da6bc74013aae9ec1f014be75fffac85241f5f848a6bc4b648f9ffbf6",
+            "processed_sha256": "9553086a01931271f991146b96bd368a8cca4b5386513e2aa2b130056d429bfc",
+            "poster_sha256": "c903995605b05cfd14fe9f8ac59db530224c44feb434bd5e72b4ac1d09f57d27",
+            "timing_edit": {
+              "source_duration_seconds": 54.133333,
+              "removed_seconds": 13.266666666666667,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-seek-20260925-063425-rvt-deployment",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/push-button/seek/20260925-063425-rvt-deployment--d39eb288e032.mp4",
+            "poster": "assets/real-world/posters/push-button/seek/20260925-063425-rvt-deployment.jpg",
+            "duration_seconds": 43.7,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SEEK/20260925-063425-rvt-deployment.mp4",
+            "original_bytes": 8604043,
+            "processed_bytes": 538099,
+            "source_sha256": "290b26e1e1bc5f131b20cbc58126ee4d75edab4c2eda39ba6504ef190caed96b",
+            "processed_sha256": "caceddc0b702859a4867012936faaa78798b8b7d2f65ad82736cf068cd077970",
+            "poster_sha256": "6f981cad1664457b361886200499216b32dbe7fe622f12d8f7927fb1286dda2e",
+            "timing_edit": {
+              "source_duration_seconds": 61.266667,
+              "removed_seconds": 17.566666666666666,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-seek-20260925-063843-rvt-deployment",
+            "label": "Clip 05",
+            "video": "assets/trimmed/real-world/push-button/seek/20260925-063843-rvt-deployment--c9d75c9729bf.mp4",
+            "poster": "assets/real-world/posters/push-button/seek/20260925-063843-rvt-deployment.jpg",
+            "duration_seconds": 55.5,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SEEK/20260925-063843-rvt-deployment.mp4",
+            "original_bytes": 9919999,
+            "processed_bytes": 696163,
+            "source_sha256": "e675e02e6453bace6612eea1c3230c2fa6d81198265ae7e2330332992a56931d",
+            "processed_sha256": "1e81746465244a8c9c418bddfb2c9bbcaac5e479e0f4a7def456c2065334502e",
+            "poster_sha256": "e978d704de6c6172198c4dee4fe259ab9b996c9800103005fc108b5ca3e8b113",
+            "timing_edit": {
+              "source_duration_seconds": 69.866667,
+              "removed_seconds": 14.366666666666667,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "push-button-seek-20260925-064032-rvt-deployment",
+            "label": "Clip 06",
+            "video": "assets/trimmed/real-world/push-button/seek/20260925-064032-rvt-deployment--e0a53102e852.mp4",
+            "poster": "assets/real-world/posters/push-button/seek/20260925-064032-rvt-deployment.jpg",
+            "duration_seconds": 51.833333333333336,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/push button times/SEEK/20260925-064032-rvt-deployment.mp4",
+            "original_bytes": 9897803,
+            "processed_bytes": 664236,
+            "source_sha256": "ed4d534eb627400078ab30b642eed1bd02419ef190866b17780a50af7233ea94",
+            "processed_sha256": "81a1f5b38fae180e6214602c3be4866a239ff115a5deb95ce1e00773fbbca1c2",
+            "poster_sha256": "7a62b0b7ea7dfc60f36367f75eef6453effdcf5e504b235c0bcb22c4244957bd",
+            "timing_edit": {
+              "source_duration_seconds": 68.966667,
+              "removed_seconds": 17.133333333333333,
+              "kind": "shortened still intervals"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "stack-cups",
+      "name": "Stack cups",
+      "methods": {
+        "pi05": [
+          {
+            "id": "stack-cups-pi05-pi_async_260908-231209-stack1",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/stack-cups/pi05/pi_async_260908-231209-stack1--6124bc2752a4.mp4",
+            "poster": "assets/real-world/posters/stack-cups/pi05/pi_async_260908-231209-stack1.jpg",
+            "duration_seconds": 170.26666666666668,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/stack cups/pi05/pi_async_260908-231209-stack1.mp4",
+            "original_bytes": 17394121,
+            "processed_bytes": 1222995,
+            "source_sha256": "dcbb2a6f0683bee675c510b15060cbb0671dc8a1351fc411855023dad8f31594",
+            "processed_sha256": "5b364afb17b4e4bc27d67985831b59ba0f52b34660dc5dd70f07a80f0feb6b85",
+            "poster_sha256": "df45783595cef67d8bb4079ede611b227723a2f089de83b1bd0c9cc746859564",
+            "timing_edit": {
+              "source_duration_seconds": 220.866667,
+              "removed_seconds": 50.6,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-pi05-pi_async_260925-052453",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/stack-cups/pi05/pi_async_260925-052453--914122db2bee.mp4",
+            "poster": "assets/real-world/posters/stack-cups/pi05/pi_async_260925-052453.jpg",
+            "duration_seconds": 120.2,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/stack cups/pi05/pi_async_260925-052453.mp4",
+            "original_bytes": 11206573,
+            "processed_bytes": 1020923,
+            "source_sha256": "2d6571c38cc95967fe459e045bd84b1eb88b60e18aafe39f780237e38dc45527",
+            "processed_sha256": "29da0804e7006737ae194fb72948c0fd30cb30636ef43b8da1ab734fd08332e3",
+            "poster_sha256": "cea3da601c251ad85c8ba25496ef3dedcdbdec3ae53e4304c6e02467effbec38",
+            "timing_edit": {
+              "source_duration_seconds": 137.266667,
+              "removed_seconds": 17.066666666666666,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-pi05-pi_async_260925-053827",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/stack-cups/pi05/pi_async_260925-053827--e2d638706702.mp4",
+            "poster": "assets/real-world/posters/stack-cups/pi05/pi_async_260925-053827.jpg",
+            "duration_seconds": 125.86666666666666,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/stack cups/pi05/pi_async_260925-053827.mp4",
+            "original_bytes": 12371817,
+            "processed_bytes": 1203671,
+            "source_sha256": "9f36dd2d5ff0b626802fb3ea5361aad238ad9c612470a65834db02d065b0647a",
+            "processed_sha256": "5cc44ea8fe688356cbb5455884085bfc1861943045d6e90a239d153d1ffd5ce3",
+            "poster_sha256": "f4eb1efb9b833ae0f692b6818142d590c71c04c108ed061aa12fce5397a06f6c",
+            "timing_edit": {
+              "source_duration_seconds": 146.866667,
+              "removed_seconds": 21.0,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-pi05-pi_async_260925-054150",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/stack-cups/pi05/pi_async_260925-054150--32a21151b601.mp4",
+            "poster": "assets/real-world/posters/stack-cups/pi05/pi_async_260925-054150.jpg",
+            "duration_seconds": 160.06666666666666,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/stack cups/pi05/pi_async_260925-054150.mp4",
+            "original_bytes": 14922293,
+            "processed_bytes": 1326528,
+            "source_sha256": "09675dc41432753eb7149671a09152a4a501cdcef69a9fabc0a400e7f13ff071",
+            "processed_sha256": "c9f485fc7301543fc38217f7e2ec3c6a098ce7717cd79cadf75c05a1565d5857",
+            "poster_sha256": "77f3a68c5f9cb30c43a62f95b85a49336b262533c8ce09e1a1e4fab94abab03f",
+            "timing_edit": {
+              "source_duration_seconds": 181.066667,
+              "removed_seconds": 21.0,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "sam2act-plus": [
+          {
+            "id": "stack-cups-sam2act-plus-20260908-233611-rvt-deployment",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/stack-cups/sam2act-plus/20260908-233611-rvt-deployment--d0bdd65a091c.mp4",
+            "poster": "assets/real-world/posters/stack-cups/sam2act-plus/20260908-233611-rvt-deployment.jpg",
+            "duration_seconds": 52.56666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SAM2Act+/20260908-233611-rvt-deployment.mp4",
+            "original_bytes": 8020078,
+            "processed_bytes": 706731,
+            "source_sha256": "d0db5896d5e1e26a25eceed61d55e89595ce230c129609397ab7c0c447707ad8",
+            "processed_sha256": "b933907be4c976dc76437ba59ed0095f8196b7b1054c0964a2b06f8fb8f78e61",
+            "poster_sha256": "97cb9142f0b75b1be67c581f97f5dc49c4714ac4187802397b734d8fbdb83c0b",
+            "timing_edit": {
+              "source_duration_seconds": 55.066667,
+              "removed_seconds": 2.5,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-sam2act-plus-20260908-233744-rvt-deployment",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/stack-cups/sam2act-plus/20260908-233744-rvt-deployment--ab9289b4c030.mp4",
+            "poster": "assets/real-world/posters/stack-cups/sam2act-plus/20260908-233744-rvt-deployment.jpg",
+            "duration_seconds": 103.5,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SAM2Act+/20260908-233744-rvt-deployment.mp4",
+            "original_bytes": 19575202,
+            "processed_bytes": 1336349,
+            "source_sha256": "b9c1aef6fa8054f5816920d79126d3149aa94c08c22ef65baeedab060f6da24a",
+            "processed_sha256": "734fd8eacfd10aca826bad56e3a8ae2fa5268f0ad0eedb875d03263948b91956",
+            "poster_sha256": "716dd07867fb3b6aea1a441b34a1a589c9d4e1082fe2a5abe0fe3d3fab347ee0",
+            "timing_edit": {
+              "source_duration_seconds": 139.4,
+              "removed_seconds": 35.9,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-sam2act-plus-20260909-000321-rvt-deployment",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/stack-cups/sam2act-plus/20260909-000321-rvt-deployment--c315d9948fb9.mp4",
+            "poster": "assets/real-world/posters/stack-cups/sam2act-plus/20260909-000321-rvt-deployment.jpg",
+            "duration_seconds": 35.266666666666666,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SAM2Act+/20260909-000321-rvt-deployment.mp4",
+            "original_bytes": 5818526,
+            "processed_bytes": 498844,
+            "source_sha256": "c0412d85f68db3c2cc46bfcbf291ccf3f6160155111a1153943b0026d8ae6bce",
+            "processed_sha256": "ad87ebcbb55f0d59eca18b1460f8ab4233a5a2cc11db74d36daf36eb04ffeff8",
+            "poster_sha256": "12986d712c1c900a5e38d8fd359dd365b071732a691f1877a44018265df90b19",
+            "timing_edit": {
+              "source_duration_seconds": 41.1,
+              "removed_seconds": 5.833333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-sam2act-plus-20260909-000449-rvt-deployment",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/stack-cups/sam2act-plus/20260909-000449-rvt-deployment--91ff09d9a725.mp4",
+            "poster": "assets/real-world/posters/stack-cups/sam2act-plus/20260909-000449-rvt-deployment.jpg",
+            "duration_seconds": 68.03333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SAM2Act+/20260909-000449-rvt-deployment.mp4",
+            "original_bytes": 11252899,
+            "processed_bytes": 1038819,
+            "source_sha256": "a5f4a4e9ad659c2a3f0ed8855ecb03c1363d6b45c86906089bc280217161b612",
+            "processed_sha256": "94e170f9f64a579a29a445745257d8f18816925d5f611971d920975c65da314d",
+            "poster_sha256": "c6a8956f37b337c6baf3bd451f83534e46b416f10bd2e9f98f62887016122b84",
+            "timing_edit": {
+              "source_duration_seconds": 76.533333,
+              "removed_seconds": 8.5,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "seek": [
+          {
+            "id": "stack-cups-seek-20260908-235742-rvt-deployment",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/stack-cups/seek/20260908-235742-rvt-deployment--e146b76feecf.mp4",
+            "poster": "assets/real-world/posters/stack-cups/seek/20260908-235742-rvt-deployment.jpg",
+            "duration_seconds": 47.53333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SEEK/20260908-235742-rvt-deployment.mp4",
+            "original_bytes": 6928307,
+            "processed_bytes": 612863,
+            "source_sha256": "4656ca887971257ac75f8952b552d971a0738a264b1d93c40ec3c5472b18cf43",
+            "processed_sha256": "afb1010777cae02e81cdaf6b43ffb845f9f45781270a181a261076dc5933f1a6",
+            "poster_sha256": "5724c473530df7a9c5cccd498edea7b415b98a8d02c84edf4cb200acdc6c68ea",
+            "timing_edit": {
+              "source_duration_seconds": 51.866667,
+              "removed_seconds": 4.333333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-seek-20260908-235941-rvt-deployment",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/stack-cups/seek/20260908-235941-rvt-deployment--710f734b5067.mp4",
+            "poster": "assets/real-world/posters/stack-cups/seek/20260908-235941-rvt-deployment.jpg",
+            "duration_seconds": 53.03333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SEEK/20260908-235941-rvt-deployment.mp4",
+            "original_bytes": 8807789,
+            "processed_bytes": 755017,
+            "source_sha256": "af4ebb568f1de2dee9b606662dc8739dddc03fe07fa09775e43b2209c1b122cb",
+            "processed_sha256": "178036887b8f806b1910aad5217cf020435a0c7099b73862c1399ebe3bd07abe",
+            "poster_sha256": "73d8edb410aebae5a332dba53f9b8bade527f3ce8412e0c64b3298ac6729b8aa",
+            "timing_edit": {
+              "source_duration_seconds": 61.066667,
+              "removed_seconds": 8.033333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-seek-20260909-000136-rvt-deployment",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/stack-cups/seek/20260909-000136-rvt-deployment--160149414b37.mp4",
+            "poster": "assets/real-world/posters/stack-cups/seek/20260909-000136-rvt-deployment.jpg",
+            "duration_seconds": 61.06666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SEEK/20260909-000136-rvt-deployment.mp4",
+            "original_bytes": 9488202,
+            "processed_bytes": 885084,
+            "source_sha256": "1302cc25d310923f1128019d80af000be33c68c0456b1748767e5e1073c0f134",
+            "processed_sha256": "2b3b2ec5ce5f3c53be483771cb9ac56f7e3efc3d4f0fa16fa961ec94d7ab0a1d",
+            "poster_sha256": "ef9c86550b391f3dc1711ed47bdaa5df0a0404607341c3cf0f6ce385a5398280",
+            "timing_edit": {
+              "source_duration_seconds": 67.233333,
+              "removed_seconds": 6.166666666666667,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "stack-cups-seek-20260909-000650-rvt-deployment",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/stack-cups/seek/20260909-000650-rvt-deployment--fac462d5e5ea.mp4",
+            "poster": "assets/real-world/posters/stack-cups/seek/20260909-000650-rvt-deployment.jpg",
+            "duration_seconds": 61.7,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/stack cups/SEEK/20260909-000650-rvt-deployment.mp4",
+            "original_bytes": 8930442,
+            "processed_bytes": 850297,
+            "source_sha256": "6fe9954c6365b9a5c11bbd9511cca99c590732cf705cdd6b95519cbfcd7aefde",
+            "processed_sha256": "3ae926efa278361610ea9b78c11ba68060514dbe839cd0af1b458e4da47ca373",
+            "poster_sha256": "7a0865024f417049e77115fa68e2a05b31d5469ebd117afdda68b4932f7bfb24",
+            "timing_edit": {
+              "source_duration_seconds": 64.7,
+              "removed_seconds": 3.0,
+              "kind": "shortened still intervals"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean-desk",
+      "name": "Clean desk",
+      "methods": {
+        "pi05": [
+          {
+            "id": "clean-desk-pi05-pi_async_260925-054820",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/clean-desk/pi05/pi_async_260925-054820--ba503bdd058d.mp4",
+            "poster": "assets/real-world/posters/clean-desk/pi05/pi_async_260925-054820.jpg",
+            "duration_seconds": 53.266666666666666,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/clean desk/pi05/pi_async_260925-054820.mp4",
+            "original_bytes": 7647442,
+            "processed_bytes": 686398,
+            "source_sha256": "2e40d08c30ff1ea3fa6d4672dacbefd2abd013900a563f11b91c8958ffcf9f77",
+            "processed_sha256": "73ce924c7de540082825d172da1407617788592bebf378cc0df3f22cb7525690",
+            "poster_sha256": "0325c62459169a24b7bc8224235cefccf30707fa6abd32cf156076140c5053f8",
+            "timing_edit": {
+              "source_duration_seconds": 69.6,
+              "removed_seconds": 16.333333333333332,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-pi05-pi_async_260925-055016",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/clean-desk/pi05/pi_async_260925-055016--698ed2c0c4e4.mp4",
+            "poster": "assets/real-world/posters/clean-desk/pi05/pi_async_260925-055016.jpg",
+            "duration_seconds": 162.26666666666668,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/clean desk/pi05/pi_async_260925-055016.mp4",
+            "original_bytes": 20870249,
+            "processed_bytes": 2006746,
+            "source_sha256": "b18b56787ea34b84e7cb84bf8bbfb090c81817b4fca6e47482fdc8339ebee292",
+            "processed_sha256": "0fe02a69c424d706e3a150d6f025e69838ce1b1819ce5df91d317e0888781f89",
+            "poster_sha256": "9736dbe5baf2a8f4a8807bcf1f3ef600fcec5a46604b48104d82bc7a42f43a77",
+            "timing_edit": {
+              "source_duration_seconds": 177.333333,
+              "removed_seconds": 15.066666666666666,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-pi05-pi_async_260925-055420",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/clean-desk/pi05/pi_async_260925-055420--67a776cbb552.mp4",
+            "poster": "assets/real-world/posters/clean-desk/pi05/pi_async_260925-055420.jpg",
+            "duration_seconds": 59.86666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/clean desk/pi05/pi_async_260925-055420.mp4",
+            "original_bytes": 9164400,
+            "processed_bytes": 729844,
+            "source_sha256": "76cf2ba72e542e9cc6bcb71b6a9ba6748adca5df30682e9a9c70d5551e434dc7",
+            "processed_sha256": "4a06056c2805519c7f4292e9f6aa9203567d363a9c35e95a3bebe78d19e33597",
+            "poster_sha256": "98768d2a3ac2a40f978b663d347f4ed38e0dbd43e357aac304df42fd28625ee4",
+            "timing_edit": {
+              "source_duration_seconds": 88.466667,
+              "removed_seconds": 28.6,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-pi05-pi_async_260925-055634",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/clean-desk/pi05/pi_async_260925-055634--65eb1b82387d.mp4",
+            "poster": "assets/real-world/posters/clean-desk/pi05/pi_async_260925-055634.jpg",
+            "duration_seconds": 61.8,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/clean desk/pi05/pi_async_260925-055634.mp4",
+            "original_bytes": 9126128,
+            "processed_bytes": 703231,
+            "source_sha256": "99f3740312621f010c1b181f302eb37c0a6e44dc268b0f414968d03e491a1eb2",
+            "processed_sha256": "31a0b9d36a395d404f74d47101fc0fa48f0c39426c276bccb8527a4f61f41590",
+            "poster_sha256": "7d66d90bbacbd5a18218a9e9b5826a2a678934540d1e2319ed96e2c365fa431f",
+            "timing_edit": {
+              "source_duration_seconds": 89.133333,
+              "removed_seconds": 27.333333333333332,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "sam2act-plus": [
+          {
+            "id": "clean-desk-sam2act-plus-20260917-230939-rvt-deployment",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/clean-desk/sam2act-plus/20260917-230939-rvt-deployment--d166150155f4.mp4",
+            "poster": "assets/real-world/posters/clean-desk/sam2act-plus/20260917-230939-rvt-deployment.jpg",
+            "duration_seconds": 92.26666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SAM2Act+/20260917-230939-rvt-deployment.mp4",
+            "original_bytes": 16064942,
+            "processed_bytes": 1465900,
+            "source_sha256": "8e5daad07c41f878a8abc6676ff2048fb6dc144c4f0a6e5beb631a8b1f3fa0c3",
+            "processed_sha256": "62b4ec365afe0077371542d354acfeec0b8a750d83b03ede063cd618d3f850c9",
+            "poster_sha256": "b121e1f4d93ff1cfba29ef3d04e9efd0cbc983c1aed382b6ee3a5e18a40edeb6",
+            "timing_edit": {
+              "source_duration_seconds": 99.166667,
+              "removed_seconds": 6.9,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-sam2act-plus-20260917-231640-rvt-deployment",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/clean-desk/sam2act-plus/20260917-231640-rvt-deployment--dda9043e6082.mp4",
+            "poster": "assets/real-world/posters/clean-desk/sam2act-plus/20260917-231640-rvt-deployment.jpg",
+            "duration_seconds": 129.13333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SAM2Act+/20260917-231640-rvt-deployment.mp4",
+            "original_bytes": 23497769,
+            "processed_bytes": 2063254,
+            "source_sha256": "55ef6c37b9549f46d4a0c2d42789c0fb3c1e9214e6797ac6e8fb3d7afd18a2a9",
+            "processed_sha256": "3b9000ca2b30b1ecbe1eb30207e8946381f3c21d55679abd108548914c6d8e49",
+            "poster_sha256": "b1953b4c4ee72831158852c6c8e1bc96386804c36305385c674ad46f3675e118",
+            "timing_edit": {
+              "source_duration_seconds": 145.633333,
+              "removed_seconds": 16.5,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-sam2act-plus-20260917-234357-rvt-deployment",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/clean-desk/sam2act-plus/20260917-234357-rvt-deployment--05a9c0297b00.mp4",
+            "poster": "assets/real-world/posters/clean-desk/sam2act-plus/20260917-234357-rvt-deployment.jpg",
+            "duration_seconds": 101.93333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SAM2Act+/20260917-234357-rvt-deployment.mp4",
+            "original_bytes": 19235586,
+            "processed_bytes": 1699778,
+            "source_sha256": "963feaab272e0ead26e9d6286a45e8259052dff3fc5b973ea4eeda001365149e",
+            "processed_sha256": "7481f8bc242a1b991e21516a793d575b56320ab9eba0408fe92fb43cf0004853",
+            "poster_sha256": "19e4499ce044ab53dba1ddfba911e222fc60990d8d2ff42c9dbcd9476cec2dfc",
+            "timing_edit": {
+              "source_duration_seconds": 112.0,
+              "removed_seconds": 10.066666666666666,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-sam2act-plus-20260917-234955-rvt-deployment-no-wipe",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/clean-desk/sam2act-plus/20260917-234955-rvt-deployment-no-wipe--2b8ecac16ab3.mp4",
+            "poster": "assets/real-world/posters/clean-desk/sam2act-plus/20260917-234955-rvt-deployment-no-wipe.jpg",
+            "duration_seconds": 75.93333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SAM2Act+/20260917-234955-rvt-deployment-no-wipe.mp4",
+            "original_bytes": 14603065,
+            "processed_bytes": 1245275,
+            "source_sha256": "d28b90e3c1d80efc661d163e8eb4265b4c92b531f5e9ce25424dfffdac5ceb34",
+            "processed_sha256": "472c4094d1a9a72fccd3a8149ac71c669c55e8c80303760d783f8ae3ab8c236e",
+            "poster_sha256": "1aa5b96114a0db5e145188202a204d09f6783c9599f3a10a35dc698afb1f8832",
+            "timing_edit": {
+              "source_duration_seconds": 85.9,
+              "removed_seconds": 9.966666666666667,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "seek": [
+          {
+            "id": "clean-desk-seek-20260917-225442-rvt-deployment-success",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/clean-desk/seek/20260917-225442-rvt-deployment-success--8f3773bdc918.mp4",
+            "poster": "assets/real-world/posters/clean-desk/seek/20260917-225442-rvt-deployment-success.jpg",
+            "duration_seconds": 125.13333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SEEK/20260917-225442-rvt-deployment-success.mp4",
+            "original_bytes": 21163300,
+            "processed_bytes": 1865017,
+            "source_sha256": "80d41eda02b37beb93966b9867c768345ecbe9de4fe3aa47b0aff4c1d90c6d60",
+            "processed_sha256": "3785ef5e72175274b8bf1467d331fb2431830e5c0d3b145f06564c4eaaee111c",
+            "poster_sha256": "e71fd3fdeff06b52cb43f6c2a96e86ced4fceaefba67d8920256085cd0d81c6c",
+            "timing_edit": {
+              "source_duration_seconds": 133.3,
+              "removed_seconds": 8.166666666666666,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-seek-20260917-225925-rvt-deployment-success",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/clean-desk/seek/20260917-225925-rvt-deployment-success--b43b189927f1.mp4",
+            "poster": "assets/real-world/posters/clean-desk/seek/20260917-225925-rvt-deployment-success.jpg",
+            "duration_seconds": 92.16666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SEEK/20260917-225925-rvt-deployment-success.mp4",
+            "original_bytes": 15849761,
+            "processed_bytes": 1437162,
+            "source_sha256": "e29c796f562f7f5d4aa9668d5085b25113e244508ff5513e11fd90a6f8d8ca5d",
+            "processed_sha256": "f4d2e7055f53f45140fd0774b497f1a7b070ed3c6c71e1870649f80c1434588c",
+            "poster_sha256": "2870d7db2ae0987ed96e944f2607c5fbea8fdc5ea2a39b26cbeac6d387f000b7",
+            "timing_edit": {
+              "source_duration_seconds": 97.633333,
+              "removed_seconds": 5.466666666666667,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-seek-20260917-233701-rvt-deployment-success",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/clean-desk/seek/20260917-233701-rvt-deployment-success--7514ace2fe5c.mp4",
+            "poster": "assets/real-world/posters/clean-desk/seek/20260917-233701-rvt-deployment-success.jpg",
+            "duration_seconds": 97.4,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SEEK/20260917-233701-rvt-deployment-success.mp4",
+            "original_bytes": 17470864,
+            "processed_bytes": 1592969,
+            "source_sha256": "efde8f9d3f9932b3f3f007c03acf0a872dd215e286283111a63166ef13e45f6c",
+            "processed_sha256": "68c5252f3d8350f1ab117ba5e19380840046026ba95ac41a0e1cece6028e46ec",
+            "poster_sha256": "3c6dfa2b633ccc100ced99ecc597cbfe943d0d879d12915660f71107a948e549",
+            "timing_edit": {
+              "source_duration_seconds": 101.2,
+              "removed_seconds": 3.8,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "clean-desk-seek-20260917-234635-rvt-deployment-success",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/clean-desk/seek/20260917-234635-rvt-deployment-success--ce87828680f4.mp4",
+            "poster": "assets/real-world/posters/clean-desk/seek/20260917-234635-rvt-deployment-success.jpg",
+            "duration_seconds": 96.63333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/clean desk/SEEK/20260917-234635-rvt-deployment-success.mp4",
+            "original_bytes": 16919702,
+            "processed_bytes": 1527868,
+            "source_sha256": "1a116aa543b033771d3632757194e683cdca27b13c9ff6885a5dbb0189c4ca86",
+            "processed_sha256": "0b247af827683ee0f61b898f84f860cf040ec17b332a76dee793395d29b3b3a9",
+            "poster_sha256": "c3b4c67699e9a65670524a26bdb4ede93106b671709abccae0791c2ce9e34c53",
+            "timing_edit": {
+              "source_duration_seconds": 99.633333,
+              "removed_seconds": 3.0,
+              "kind": "shortened still intervals"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "lift-blocks",
+      "name": "Lift blocks",
+      "methods": {
+        "pi05": [
+          {
+            "id": "lift-blocks-pi05-pi_async_260908-223028-lift1",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/lift-blocks/pi05/pi_async_260908-223028-lift1--d91245e249fc.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/pi05/pi_async_260908-223028-lift1.jpg",
+            "duration_seconds": 119.93333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/lift blocks/pi05/pi_async_260908-223028-lift1.mp4",
+            "original_bytes": 13462803,
+            "processed_bytes": 1177322,
+            "source_sha256": "0e41becb4be28c89d10c0dd25b8750eaf712bb112dce26eb69bb3ab96269c588",
+            "processed_sha256": "53c4f6c05bbb02aa352da1ad5c1a45ea8366c32af598409b09cbc247609a4ada",
+            "poster_sha256": "7ae264bab32fc578c9a8c9731a86616a0c1817d812af5c116437182113bd897c",
+            "timing_edit": {
+              "source_duration_seconds": 166.466667,
+              "removed_seconds": 46.53333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-pi05-pi_async_260908-223401",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/lift-blocks/pi05/pi_async_260908-223401--79b4d27687f6.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/pi05/pi_async_260908-223401.jpg",
+            "duration_seconds": 187.53333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/lift blocks/pi05/pi_async_260908-223401.mp4",
+            "original_bytes": 17144019,
+            "processed_bytes": 1402787,
+            "source_sha256": "db8a4632c7083a5e80e59ab2da4d29c11471cbac7397f758d350944b5a1afea6",
+            "processed_sha256": "09154d54856bc4746bea88d156e9433923fb14b9ac94dc34edc0a1cc2a3b5bc1",
+            "poster_sha256": "f6922a1a3f81983de1708bc207b177363f7947201809a7d7d4b3ed8ebbb1ee72",
+            "timing_edit": {
+              "source_duration_seconds": 222.066667,
+              "removed_seconds": 34.53333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-pi05-pi_async_260908-223844",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/lift-blocks/pi05/pi_async_260908-223844--c0a3fe8d099b.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/pi05/pi_async_260908-223844.jpg",
+            "duration_seconds": 174.73333333333332,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/lift blocks/pi05/pi_async_260908-223844.mp4",
+            "original_bytes": 16992526,
+            "processed_bytes": 1443611,
+            "source_sha256": "2dcaddf2c35c441513b6e43be4e5e7afc77daed5bca6f2b441afa7ac5fb29627",
+            "processed_sha256": "8bb66e67daeeb2efb8f0f013ede8ecc6d3b07a4a05900e3cee252d98df4bb817",
+            "poster_sha256": "51d4e98cc7b741f3e95616f1deaa98dad2c1cd833e4fb7ab5e4f7583cb082a8b",
+            "timing_edit": {
+              "source_duration_seconds": 220.333333,
+              "removed_seconds": 45.6,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-pi05-pi_async_260908-224303",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/lift-blocks/pi05/pi_async_260908-224303--82aa9112be4c.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/pi05/pi_async_260908-224303.jpg",
+            "duration_seconds": 180.73333333333332,
+            "width": 960,
+            "height": 360,
+            "fps": 15.0,
+            "source_file": "real_world/lift blocks/pi05/pi_async_260908-224303.mp4",
+            "original_bytes": 17464198,
+            "processed_bytes": 1587915,
+            "source_sha256": "7ceef2effcd0acb7b7e6b2f203ee4a271ede1b8bf7595f655fd78fab9d141064",
+            "processed_sha256": "fac90d5a25284cb9b7f7c4e67a1db1f02354b478a0cc8379db8439457a4c703f",
+            "poster_sha256": "eda765bcd4075d3e8632f0117178bc4125579b9bd344290441d1ec43d1d5faef",
+            "timing_edit": {
+              "source_duration_seconds": 217.4,
+              "removed_seconds": 36.666666666666664,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "sam2act-plus": [
+          {
+            "id": "lift-blocks-sam2act-plus-20260908-213747-rvt-deployment",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/lift-blocks/sam2act-plus/20260908-213747-rvt-deployment--dd7dd7b057db.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/sam2act-plus/20260908-213747-rvt-deployment.jpg",
+            "duration_seconds": 54.96666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SAM2Act+/20260908-213747-rvt-deployment.mp4",
+            "original_bytes": 10146410,
+            "processed_bytes": 726407,
+            "source_sha256": "60bf75056e6528a49d151d449252bbe302a59e7eb28b64faabc3a5237b362fa1",
+            "processed_sha256": "e1aa3196109fc4036117f9d9418fa5ec879b5998041e1d25a99311031744c320",
+            "poster_sha256": "a40a6325bef0ae18772818b55f9a2837a8b6e9144b3f52ec38fcb6e65c074098",
+            "timing_edit": {
+              "source_duration_seconds": 75.166667,
+              "removed_seconds": 20.2,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-sam2act-plus-20260908-214202-rvt-deployment-4of9",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/lift-blocks/sam2act-plus/20260908-214202-rvt-deployment-4of9--25d635e4ed40.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/sam2act-plus/20260908-214202-rvt-deployment-4of9.jpg",
+            "duration_seconds": 53.53333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SAM2Act+/20260908-214202-rvt-deployment-4of9.mp4",
+            "original_bytes": 9802120,
+            "processed_bytes": 685332,
+            "source_sha256": "4fbc6b74fb9e5029a5e8f8c56ce639496f1d2c1cd3298a94b733e505ab95f8fe",
+            "processed_sha256": "2f202490f6a4e6e819cde1cdc2282275ee0c9196c4fdeaec9d83b2bb34ca3a7d",
+            "poster_sha256": "f8d503c9a29328a5e7f22229bd19462c265788c1efcd74dd8cafd0384be048e2",
+            "timing_edit": {
+              "source_duration_seconds": 75.1,
+              "removed_seconds": 21.566666666666666,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-sam2act-plus-20260908-215242-rvt-deployment-7of9",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/lift-blocks/sam2act-plus/20260908-215242-rvt-deployment-7of9--27edd674f417.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/sam2act-plus/20260908-215242-rvt-deployment-7of9.jpg",
+            "duration_seconds": 63.266666666666666,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SAM2Act+/20260908-215242-rvt-deployment-7of9.mp4",
+            "original_bytes": 13421434,
+            "processed_bytes": 785694,
+            "source_sha256": "6fd532153144a5093840f442576c9588330018888bf111c168ac433957f9e4c6",
+            "processed_sha256": "5e29f8c7eac628b1616e66cf55d027566773039c78d816048501a7f9f0c5eb33",
+            "poster_sha256": "68bf9e8a936c5fb8f1895b8040dff2cc6371667eb271881b05dc9ed2cd69ec20",
+            "timing_edit": {
+              "source_duration_seconds": 100.133333,
+              "removed_seconds": 36.86666666666667,
+              "kind": "shortened still intervals"
+            }
+          }
+        ],
+        "seek": [
+          {
+            "id": "lift-blocks-seek-20260918-002602-rvt-deployment",
+            "label": "Clip 01",
+            "video": "assets/trimmed/real-world/lift-blocks/seek/20260918-002602-rvt-deployment--6307be70197a.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/seek/20260918-002602-rvt-deployment.jpg",
+            "duration_seconds": 35.0,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SEEK/20260918-002602-rvt-deployment.mp4",
+            "original_bytes": 6085529,
+            "processed_bytes": 430336,
+            "source_sha256": "62a839c4054fc66d0f3d99be2f323ce4cdd6c9855b12f26cd2eea0d352ff36d6",
+            "processed_sha256": "6d9b530798d41a2752042951f22c6f5bff4adf344e80ec9b9ea3471e095a7311",
+            "poster_sha256": "8bae293819f02802e5be3a4fd599f49af3a396f734dc1571749542cedc09f01b",
+            "timing_edit": {
+              "source_duration_seconds": 47.033333,
+              "removed_seconds": 12.033333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-seek-20260918-003007-rvt-deployment",
+            "label": "Clip 02",
+            "video": "assets/trimmed/real-world/lift-blocks/seek/20260918-003007-rvt-deployment--10d8ff3a5d41.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/seek/20260918-003007-rvt-deployment.jpg",
+            "duration_seconds": 32.833333333333336,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SEEK/20260918-003007-rvt-deployment.mp4",
+            "original_bytes": 5609164,
+            "processed_bytes": 402912,
+            "source_sha256": "0f2ce3829278e27a2ed696a4667174349d15f99bac55f12060fbfa0b750da0e4",
+            "processed_sha256": "e58f816525d7e04a7db5032b0d229e7fd614ab18eb7b5369b3d84558b009d461",
+            "poster_sha256": "c43d12e372f6b2db1c5cb2f7ef1cc2f1f1a03bb5d9425c04cbf2504d279ae246",
+            "timing_edit": {
+              "source_duration_seconds": 42.866667,
+              "removed_seconds": 10.033333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-seek-20260918-004013-rvt-deployment",
+            "label": "Clip 03",
+            "video": "assets/trimmed/real-world/lift-blocks/seek/20260918-004013-rvt-deployment--af20c3ce8eba.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/seek/20260918-004013-rvt-deployment.jpg",
+            "duration_seconds": 57.63333333333333,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SEEK/20260918-004013-rvt-deployment.mp4",
+            "original_bytes": 9174469,
+            "processed_bytes": 816128,
+            "source_sha256": "80ec291bff0976f95fc9d40a854d0dff2bb67d682d192271d4b5c16e8566d5e9",
+            "processed_sha256": "6a2777cf0aa2373df4b231bb78c2e4469adc40985a35a93e7ab773284e8c0c21",
+            "poster_sha256": "7863d1e41cd19cbd9e77e00cc204c98bced8b4a0a93e6700da5fc9a9e5382cb3",
+            "timing_edit": {
+              "source_duration_seconds": 65.366667,
+              "removed_seconds": 7.733333333333333,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-seek-20260918-004157-rvt-deployment",
+            "label": "Clip 04",
+            "video": "assets/trimmed/real-world/lift-blocks/seek/20260918-004157-rvt-deployment--feda63fe505d.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/seek/20260918-004157-rvt-deployment.jpg",
+            "duration_seconds": 64.43333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SEEK/20260918-004157-rvt-deployment.mp4",
+            "original_bytes": 11302183,
+            "processed_bytes": 881448,
+            "source_sha256": "18c50ab8b76212f27506d45d5af4402e2233dc740fe17aee8104d638e3e82567",
+            "processed_sha256": "7ee9e7dabd7d1a4dcbd2c4060210a225f6d030c35d3709689551abe64a81450d",
+            "poster_sha256": "137864f465b6ab550120e771f74fdb028ec1614a2f1f43d63e2f622f639f2d2c",
+            "timing_edit": {
+              "source_duration_seconds": 81.733333,
+              "removed_seconds": 17.3,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-seek-20260918-004403-rvt-deployment",
+            "label": "Clip 05",
+            "video": "assets/trimmed/real-world/lift-blocks/seek/20260918-004403-rvt-deployment--008718c267d4.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/seek/20260918-004403-rvt-deployment.jpg",
+            "duration_seconds": 78.16666666666667,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SEEK/20260918-004403-rvt-deployment.mp4",
+            "original_bytes": 11888673,
+            "processed_bytes": 1115163,
+            "source_sha256": "2f0b5fbca6253dcaab82b249cc453ea9edfe5d5de5b7c904a97617ec7fec643b",
+            "processed_sha256": "d566d3208218c6a3548bbf96d4951e7b3fd25548fd462bf654db066cbeabf690",
+            "poster_sha256": "1779057c57af5cbce45899780c69947403b35fab51b8cca1625434c809e40970",
+            "timing_edit": {
+              "source_duration_seconds": 84.333333,
+              "removed_seconds": 6.166666666666667,
+              "kind": "shortened still intervals"
+            }
+          },
+          {
+            "id": "lift-blocks-seek-20260918-004633-rvt-deployment",
+            "label": "Clip 06",
+            "video": "assets/trimmed/real-world/lift-blocks/seek/20260918-004633-rvt-deployment--87f87067e609.mp4",
+            "poster": "assets/real-world/posters/lift-blocks/seek/20260918-004633-rvt-deployment.jpg",
+            "duration_seconds": 89.93333333333334,
+            "width": 960,
+            "height": 360,
+            "fps": 30.0,
+            "source_file": "real_world/lift blocks/SEEK/20260918-004633-rvt-deployment.mp4",
+            "original_bytes": 15012026,
+            "processed_bytes": 1246849,
+            "source_sha256": "8edb835696d4cef765d5d4ca699af8faf491241bd4ef46a5b6285810ba58c21c",
+            "processed_sha256": "b1ed1f64668849eb998d354524f9e48b21e9d30637fdf085c686f6344d4cedf6",
+            "poster_sha256": "4cc58d997d5641fda9984f69ef36e5def53d6d0fdef8f3f3f36154bef37ae4ba",
+            "timing_edit": {
+              "source_duration_seconds": 105.8,
+              "removed_seconds": 15.866666666666667,
+              "kind": "shortened still intervals"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "processing": {
+    "version": 1,
+    "codec": "h264",
+    "encoder": "libx264",
+    "crf": 28,
+    "preset": "slow",
+    "pixel_format": "yuv420p",
+    "maximum_width": 960,
+    "maximum_height": 720,
+    "maximum_fps": 30,
+    "upscale": false,
+    "audio": false,
+    "faststart": true,
+    "encoder_threads": 2,
+    "preserve_duration": false,
+    "playback_speed": "controlled in browser",
+    "unchanged_clips": "re-encoded for smaller web delivery",
+    "still_shortening": {
+      "min_still": 1.0,
+      "keep_still": 0.3,
+      "protect_end": 2.0,
+      "mean_threshold": 1.0,
+      "tile_threshold": 2.5,
+      "pixel_threshold": 12.0,
+      "changed_fraction": 0.005,
+      "analysis_width": 320,
+      "tile_size": 16,
+      "crf": 28,
+      "max_width": 960,
+      "preset": "slow",
+      "reencode": true
+    }
+  },
+  "totals": {
+    "clips": 48,
+    "original_bytes": 618204710,
+    "processed_bytes": 51050908
+  },
+  "featured": {
+    "task_id": "clean-desk",
+    "method": "seek",
+    "clip_id": "clean-desk-seek-20260917-225442-rvt-deployment-success"
+  },
+  "timing_edit": {
+    "kind": "shortened still intervals",
+    "settings": {
+      "min_still": 1.0,
+      "keep_still": 0.3,
+      "protect_end": 2.0,
+      "mean_threshold": 1.0,
+      "tile_threshold": 2.5,
+      "pixel_threshold": 12.0,
+      "changed_fraction": 0.005,
+      "analysis_width": 320,
+      "tile_size": 16,
+      "crf": 28,
+      "max_width": 960,
+      "preset": "slow",
+      "reencode": true
+    }
+  },
+  "source_processing": {
+    "version": 1,
+    "codec": "h264",
+    "encoder": "libx264",
+    "crf": 26,
+    "preset": "fast",
+    "pixel_format": "yuv420p",
+    "maximum_width": 1280,
+    "maximum_height": 720,
+    "maximum_fps": 30,
+    "upscale": false,
+    "audio": false,
+    "faststart": true,
+    "encoder_threads": 4,
+    "preserve_duration": true,
+    "playback_speed": "controlled in browser"
+  }
+}

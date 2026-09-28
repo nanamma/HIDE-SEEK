@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <!-- BEGIN SEARCH METADATA -->
+  <title>HIDE &amp; SEEK — Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation</title>
+  <meta name="description" content="HIDE &amp; SEEK: a benchmark and memory framework for partially observable robotic manipulation. 15 tasks, three hidden-state memory demands, and real-world experiments.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="citation_title" content="Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation">
+  <meta property="og:title" content="HIDE &amp; SEEK — Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation">
+  <meta property="og:description" content="HIDE &amp; SEEK: a benchmark and memory framework for partially observable robotic manipulation. 15 tasks, three hidden-state memory demands, and real-world experiments.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HIDE &amp; SEEK">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="citation_author" content="Yansong Shi">
+  <meta name="citation_author" content="Jiange Yang">
+  <meta name="citation_author" content="Xijie Yang">
+  <meta name="citation_author" content="Shaowei Zhang">
+  <meta name="citation_author" content="Yuhan Zhu">
+  <meta name="citation_author" content="Tao Lu">
+  <meta name="citation_author" content="Limin Wang">
+  <meta name="citation_publication_date" content="2026-09-30">
+  <link rel="canonical" href="https://nanamma.github.io/HIDE-SEEK/">
+  <meta property="og:url" content="https://nanamma.github.io/HIDE-SEEK/">
+  <meta property="og:image" content="https://nanamma.github.io/HIDE-SEEK/assets/hero/push_button_times.webp">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2609.38886">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation", "alternativeHeadline": "HIDE & SEEK", "abstract": "Recent advances in robot learning have enabled manipulation policies to perform increasingly diverse tasks and generalize across environments. However, reliable execution often depends on hidden task states that cannot be determined from current observations alone, making interaction history essential. We introduce HIDE, a benchmark for evaluating manipulation memory under partial observability. HIDE comprises 15 tasks covering repetition counting, historical-state recall, and execution-progress tracking, with randomized initial configurations and decision points where similar observations require different actions depending on prior events. We further propose SEEK, a framework combining three complementary memory mechanisms to retain historical evidence and track execution state. Evaluations reveal substantial limitations in existing policies on HIDE, while memory augmentation improves task success in both simulation and real-world experiments. Individual mechanisms benefit some tasks but can degrade others; their combination achieves the highest average success rate on HIDE among the evaluated configurations. These findings highlight the importance of maintaining internal representations of hidden task states and matching memory design to task-specific information requirements.", "inLanguage": "en", "keywords": ["robotic manipulation", "partial observability", "hidden task states", "memory", "HIDE", "SEEK"], "author": [{"@type": "Person", "name": "Yansong Shi"}, {"@type": "Person", "name": "Jiange Yang"}, {"@type": "Person", "name": "Xijie Yang"}, {"@type": "Person", "name": "Shaowei Zhang"}, {"@type": "Person", "name": "Yuhan Zhu"}, {"@type": "Person", "name": "Tao Lu"}, {"@type": "Person", "name": "Limin Wang"}], "datePublished": "2026-09-30", "url": "https://nanamma.github.io/HIDE-SEEK/", "sameAs": ["https://arxiv.org/abs/2609.38886", "https://huggingface.co/papers/2609.38886"]}</script>
+  <!-- END SEARCH METADATA -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=24">
+  <script src="content.js?v=24" defer></script>
+  <script src="site.js?v=24" defer></script>
+  <script src="real-world.js?v=24" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="wordmark" href="#" aria-label="HIDE &amp; SEEK home"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span>HIDE &amp; SEEK<span class="wordmark-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#overview">Overview</a><a href="#benchmark">Benchmark</a><a href="#method">Method</a><a href="#results">Results</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" aria-labelledby="project-title">
+      <div class="eyebrow hero-eyebrow"><span class="status-dot"></span> ROBOTIC MANIPULATION · MEMORY · BENCHMARK</div>
+      <div class="hero-brand" aria-hidden="true">H<span class="hero-i">I<svg viewBox="0 0 120 160"><path d="M91 10C19 16-12 87 20 131c33 43 97 9 94-45C111 32 61 0 31 29"/></svg></span>DE <span class="hero-amp">&amp;</span> SEEK<span class="hero-period">.</span></div>
+      <h1 id="project-title">Benchmarking and Enhancing Skill-Level Memory<br class="desktop-break"> for Partially Observable Robotic Manipulation</h1>
+      <p class="hero-description">Understanding <em>hidden states</em> can help robots make <em>better decisions</em>.</p>
+      <p class="authors" id="authors">Yansong Shi · Jiange Yang · Xijie Yang · Shaowei Zhang · Yuhan Zhu · Tao Lu · Limin Wang</p>
+      <div class="hero-actions">
+        <a class="button button-dark" data-paper-link target="_blank" rel="noopener" href="https://arxiv.org/abs/2609.38886"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7zM14 3v5h4M10 12h5m-5 4h5"/></svg><span class="paper-status">Read the paper</span> <span class="button-note paper-status-note" hidden>SOON</span></a>
+        <a class="button button-outline" href="#resources" id="hero-code"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5M14 4l-4 16"/></svg>Code <span class="button-note" id="code-status">SOON</span></a>
+        <a class="button button-outline" data-hf-paper-link href="https://huggingface.co/papers/2609.38886" target="_blank" rel="noopener"><span aria-hidden="true">🤗</span> Hugging Face</a>
+      </div>
+
+      <div class="showcase">
+        <div class="showcase-heading"><span class="eyebrow">SAME WORLD. DIFFERENT MEMORIES.</span><button id="play-showcase" class="play-all" type="button" aria-pressed="false"><span aria-hidden="true">▶</span> Play demos</button></div>
+        <div class="showcase-grid">
+          <a class="showcase-item repetition" href="#tasks-repetition">
+            <div class="showcase-media"><video muted loop playsinline preload="none" poster="assets/hero/push_button_times.webp" aria-label="Expert demonstration of repeated button presses" data-task="push_button_times" data-src="assets/videos/push_button_times-front.mp4"></video><span class="video-corner">01 / REPEAT</span><span class="showcase-view">FRONT VIEW</span></div>
+            <div class="showcase-caption"><span class="category-symbol" aria-hidden="true">↻</span><div><h2>How many times?</h2><p>Remember the repetition count.</p></div><span class="caption-arrow" aria-hidden="true">↗</span></div>
+          </a>
+          <a class="showcase-item history" href="#tasks-history">
+            <div class="showcase-media"><video muted loop playsinline preload="none" poster="assets/hero/wipe_desk_rubbish.webp" aria-label="Expert demonstration of wiping the desk" data-task="wipe_desk_rubbish" data-src="assets/videos/wipe_desk_rubbish-front.mp4"></video><span class="video-corner">02 / RECALL</span><span class="showcase-view">FRONT VIEW</span></div>
+            <div class="showcase-caption"><span class="category-symbol" aria-hidden="true">◎</span><div><h2>What happened before?</h2><p>Keep the earlier task context.</p></div><span class="caption-arrow" aria-hidden="true">↗</span></div>
+          </a>
+          <a class="showcase-item progress" href="#tasks-progress">
+            <div class="showcase-media"><video muted loop playsinline preload="none" poster="assets/hero/swap_square_pegs.webp" aria-label="Expert demonstration of swapping rings on square pegs" data-task="swap_square_pegs" data-src="assets/videos/swap_square_pegs-front.mp4"></video><span class="video-corner">03 / TRACK</span><span class="showcase-view">FRONT VIEW</span></div>
+            <div class="showcase-caption"><span class="category-symbol" aria-hidden="true">☷</span><div><h2>What is already done?</h2><p>Track the execution progress.</p></div><span class="caption-arrow" aria-hidden="true">↗</span></div>
+          </a>
+        </div>
+        <p class="media-note"><span class="small-dot"></span> Expert demonstrations in RLBench <span>Three complementary demands on memory</span></p>
+      </div>
+      <div class="stat-strip" role="group" aria-label="Benchmark at a glance" aria-describedby="stat-summary-note">
+        <div><strong id="stat-task-count">15</strong><span>memory-dependent tasks</span></div>
+        <div><strong id="stat-average-frames">305.3</strong><span>average frames</span></div>
+        <div><strong id="stat-average-keyframes">12.1</strong><span>average keyframes</span></div>
+        <div><strong id="stat-total-variations">375</strong><span>total task variations</span></div>
+        <div class="stat-success"><div class="stat-success-value"><strong id="stat-success-rate">62.9<span>%</span></strong><span class="stat-gain" id="stat-success-gain" title="11.7 percentage points over SAM2Act+, the strongest baseline on average">+11.7 pp</span></div><span>average success on HIDE</span></div>
+      </div>
+      <p class="section-footnote stat-summary-note" id="stat-summary-note">Frame and keyframe counts average the 15 task means; variations are summed. Success-rate gain is over the strongest baseline.</p>
+    </section>
+
+    <section id="overview" class="section-wrap overview section-space">
+      <h2 class="section-label"><span>01</span> INTRODUCTION</h2>
+      <div class="overview-grid"><p class="section-subtitle">Seeing is not always <span class="heading-soft">knowing.</span></p><div class="overview-copy"><p class="lead">The same goal and the same observation can require different actions when the histories differ.</p><p>“Repeat twice” specifies what to do, but does not reveal how many repetitions are already complete. The manipulation policy must infer this hidden execution state from its own interaction history.</p><p>HIDE evaluates the memory needed for these decisions through 15 RLBench tasks. Counts, earlier observations, and execution progress can remain unresolved by current visual and proprioceptive input. Retaining the relevant history helps a policy decide what to do next, and when to stop.</p><details class="abstract" open><summary>Abstract <span aria-hidden="true">+</span></summary><p>Recent advances in robot learning have enabled manipulation policies to perform increasingly diverse tasks and generalize across environments. However, reliable execution often depends on hidden task states that cannot be determined from current observations alone, making interaction history essential. We introduce HIDE, a benchmark for evaluating manipulation memory under partial observability. HIDE comprises 15 tasks covering repetition counting, historical-state recall, and execution-progress tracking, with randomized initial configurations and decision points where similar observations require different actions depending on prior events. We further propose SEEK, a framework combining three complementary memory mechanisms to retain historical evidence and track execution state. Evaluations reveal substantial limitations in existing policies on HIDE, while memory augmentation improves task success in both simulation and real-world experiments. Individual mechanisms benefit some tasks but can degrade others; their combination achieves the highest average success rate on HIDE among the evaluated configurations. These findings highlight the importance of maintaining internal representations of hidden task states and matching memory design to task-specific information requirements.</p></details></div></div>
+      <div class="idea-flow" aria-label="Observe past views and actions, think and remember task-relevant hidden state, then act using the relevant history"><div><span class="flow-number">01</span><strong>Observe</strong><p>Past views & actions</p></div><span class="flow-arrow" aria-hidden="true">→</span><div class="flow-memory"><span class="flow-number">02</span><strong>Think &amp; Remember</strong><p>Task-relevant hidden state</p><span class="memory-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></div><span class="flow-arrow" aria-hidden="true">→</span><div><span class="flow-number">03</span><strong>Act</strong><p>History-informed decisions</p></div></div>
+    </section>
+
+    <section id="benchmark" class="benchmark-section section-space">
+      <div class="section-wrap">
+        <h2 class="section-label"><span>02</span> HIDE · PROBING HIDDEN STATES</h2>
+        <div class="section-heading"><div><p class="section-subtitle">Testing memory, <span class="heading-soft">revealing blind spots.</span></p><p>Fifteen tasks test memory for counts, past evidence, and execution progress—states the current view may leave unresolved.<br>Choose demo 1, 2, or 3 to explore a different episode of every task.</p></div><span class="section-side-note">BUILT ON RLBENCH<br>3 DEMOS PER TASK</span></div>
+        <div class="task-collection">
+          <div class="task-toolbar">
+            <div class="demo-picker"><span class="eyebrow">DEMO VARIATION</span><div class="episode-switch" role="group" aria-label="Choose demo variation for all tasks"><button type="button" class="episode-button active" data-episode="1" aria-pressed="true" disabled>1</button><button type="button" class="episode-button" data-episode="2" aria-pressed="false" disabled>2</button><button type="button" class="episode-button" data-episode="3" aria-pressed="false" disabled>3</button></div></div>
+            <p id="demo-status" role="status">Loading demonstrations…</p>
+            <button id="play-benchmark" class="play-all" type="button" aria-pressed="true"><span aria-hidden="true">Ⅱ</span> Pause demos</button>
+          </div>
+          <div class="task-groups" id="task-groups"></div>
+          <noscript><p>Enable JavaScript to explore the interactive task collection. Benchmark definitions and the paper abstract are available as text on this page.</p></noscript>
+          <p class="section-footnote">Scripted expert demonstrations, not evaluated policy rollouts. Each clip holds its final frame for 2 seconds before replaying.</p>
+        </div>
+        <section class="benchmark-statistics" id="benchmark-statistics" aria-labelledby="benchmark-statistics-title">
+          <h3 id="benchmark-statistics-title">Task statistics</h3>
+          <p class="benchmark-statistics-intro">Language patterns, trajectory lengths, and variations across the benchmark.</p>
+          <div class="table-scroll benchmark-table-wrap" tabindex="0" role="region" aria-label="Appendix task statistics table, scroll horizontally on small screens">
+            <table class="benchmark-table"><caption>From the appendix · Frames and keyframes are per-task averages.</caption>
+              <thead><tr><th scope="col">Task</th><th scope="col">Language template</th><th scope="col">Avg. frames</th><th scope="col">Avg. keyframes</th><th scope="col">Variations</th><th scope="col">Variation type</th></tr></thead>
+              <tbody id="benchmark-statistics-table"></tbody>
+              <tfoot><tr><th scope="row">Task means / total</th><td id="benchmark-table-task-count">15 tasks</td><td id="benchmark-table-frames">305.3</td><td id="benchmark-table-keyframes">12.1</td><td id="benchmark-table-variations">375</td><td>—</td></tr></tfoot>
+            </table>
+          </div>
+          <p class="section-footnote">Bracketed terms are variable placeholders; [N] is the requested count. The footer reports equal-weight task means for frames and keyframes, and the total number of task variations.</p>
+        </section>
+      </div>
+    </section>
+
+    <section id="method" class="section-wrap section-space">
+      <h2 class="section-label"><span>03</span> SEEK · MODELING HIDDEN STATES</h2>
+      <div class="section-heading"><div><p class="section-subtitle">Giving shape <span class="heading-soft">to hidden states.</span></p><p>Recent context, persistent evidence, and explicit progress.<br>Three complementary designs within a shared manipulation policy.</p></div></div>
+      <div class="memory-grid">
+        <article class="memory-card"><span class="memory-abbr">WCM <span>01</span></span><div class="memory-vis window-vis" aria-hidden="true"><i></i><i></i><b></b><b></b><b></b><b></b><span>→</span></div><h3>Windowed Context Memory</h3><p>A sliding window of recent interactions helps distinguish completed steps from the next action.</p><div class="memory-tag">RECENT CONTEXT</div></article>
+        <article class="memory-card"><span class="memory-abbr">PAM <span>02</span></span><div class="memory-vis anchor-vis" aria-hidden="true"><b></b><span>···</span><i></i><i></i><i></i><i></i></div><h3>Persistent Anchor Memory</h3><p>A protected initial memory preserves earlier evidence alongside the most recent interaction context.</p><div class="memory-tag">HISTORICAL EVIDENCE</div></article>
+        <article class="memory-card"><span class="memory-abbr">SCM <span>03</span></span><div class="memory-vis counter-vis" aria-hidden="true"><span>00</span><i>→</i><span>01</span><i>→</i><b>02</b></div><h3>Stage-Counter Memory</h3><p>An explicit counter updates at predicted stage boundaries to tell visually similar repetitions apart.</p><div class="memory-tag">EXECUTION PROGRESS</div></article>
+      </div>
+      <figure class="method-figure"><button class="figure-button" id="expand-method" type="button" aria-label="Enlarge the model architecture figure"><img src="assets/figures/model-0927.webp" alt="SEEK architecture: multi-view coarse-to-fine manipulation with memory attention and a memory bank containing WCM, PAM, and SCM." loading="lazy" width="2400" height="1512"><span>↗ Expand figure</span></button><figcaption><span>FIG. 01</span> SEEK: memory-augmented, coarse-to-fine manipulation. Historical visual information and stage progress condition action prediction.</figcaption></figure>
+    </section>
+
+    <section id="results" class="results-section section-space"><div class="section-wrap">
+      <h2 class="section-label"><span>04</span> EXPERIMENTAL RESULTS</h2>
+      <div class="results-layout"><div class="results-highlight"><div class="eyebrow">AVERAGE TASK SUCCESS</div><strong>62.9<span>%</span></strong><p><span>↗ 11.7 percentage points</span><br>over SAM2Act+, the strongest<br>baseline on average.</p><div class="result-rule"></div><p class="results-context">HIDE evaluates whether a policy can use the past when the present is not enough.</p></div><div class="chart-panel"><div class="chart-toolbar"><h3 id="chart-title">Success rate by method</h3><label class="sr-only" for="result-metric">Result category</label><select id="result-metric"><option value="avg">Overall average</option><option value="repetition">Repetition</option><option value="history">Historical recall</option><option value="progress">Progress tracking</option></select></div><div id="results-chart" class="bar-chart" aria-live="polite"></div><div class="chart-scale" aria-hidden="true"><span>0</span><span>25</span><span>50</span><span>75</span><span>100%</span></div></div></div>
+      <details class="results-details"><summary>View the full comparison table <span aria-hidden="true">+</span></summary><div class="table-scroll"><table><caption>Success rates (%) on HIDE. Overall and category averages.</caption><thead><tr><th scope="col">Method</th><th scope="col">Average</th><th scope="col">Repetition</th><th scope="col">Historical recall</th><th scope="col">Progress</th></tr></thead><tbody id="results-table"><tr class="ours"><th scope="row">SEEK</th><td>62.9</td><td>61.6</td><td>59.2</td><td>68.0</td></tr><tr><th scope="row">SAM2Act+</th><td>51.2</td><td>46.4</td><td>46.4</td><td>60.8</td></tr><tr><th scope="row">RVT2</th><td>42.9</td><td>43.2</td><td>42.4</td><td>43.2</td></tr><tr><th scope="row">SAM2Act</th><td>42.7</td><td>41.6</td><td>39.2</td><td>47.2</td></tr><tr><th scope="row">RVT</th><td>35.7</td><td>37.6</td><td>38.4</td><td>31.2</td></tr><tr><th scope="row">GR00T-N1.7</th><td>26.4</td><td>6.4</td><td>49.6</td><td>23.2</td></tr><tr><th scope="row">π₀</th><td>22.1</td><td>10.4</td><td>36.0</td><td>20.0</td></tr><tr><th scope="row">MME</th><td>18.4</td><td>2.4</td><td>35.2</td><td>17.6</td></tr><tr><th scope="row">μVLA</th><td>18.1</td><td>12.8</td><td>28.8</td><td>12.8</td></tr><tr><th scope="row">π₀.₅</th><td>14.4</td><td>5.6</td><td>24.8</td><td>12.8</td></tr><tr><th scope="row">OpenVLA-OFT</th><td>13.9</td><td>8.0</td><td>27.2</td><td>6.4</td></tr><tr><th scope="row">OpenVLA</th><td>1.6</td><td>3.2</td><td>1.6</td><td>0.0</td></tr></tbody></table></div></details>
+      <p class="section-footnote experiment-table-note">RC: repetition counting; HSR: historical-state recall; EPT: execution-progress tracking. Each HIDE task is evaluated on 25 held-out episodes.</p>
+      <section class="real-world-section" id="real-world" aria-labelledby="real-world-title">
+        <div class="real-world-intro">
+          <div><h3 class="eyebrow experiment-label" id="real-world-title">REAL-WORLD EXPERIMENTS</h3><p class="experiment-subtitle">Memory, put to work.</p><p>Across counting, stacking, cleaning, and searching, SEEK achieves 89% average success, compared with 47% for SAM2Act+ and 13% for π₀.₅.</p></div>
+        </div>
+        <div class="table-scroll real-results-wrap"><table class="real-results-table"><caption>Real-world results · Success rates (%)</caption><thead><tr id="real-world-task-headings"><th scope="col">Method</th><th scope="col">Avg.</th><th scope="col">(a) Button</th><th scope="col">(b) Cups</th><th scope="col">(c) Desk</th><th scope="col">(d) Chip</th></tr></thead><tbody id="real-world-results"><tr><th scope="row">π₀.₅</th><td>13</td><td>0</td><td>20</td><td>0</td><td>32</td></tr><tr><th scope="row">SAM2Act+</th><td>47</td><td>32</td><td>48</td><td>44</td><td>64</td></tr><tr><th scope="row" class="result-best">SEEK</th><td class="result-best">89</td><td class="result-best">76</td><td class="result-best">100</td><td class="result-best">80</td><td class="result-best">100</td></tr></tbody></table></div>
+        <p class="research-note experiment-table-note">Avg. is the unweighted mean across four tasks. N is the requested number of button presses or cups to stack; M is the total number of cups. The videos illustrate the tasks and do not constitute the full evaluation set. Long still intervals are shortened for viewing.</p>
+        <div class="real-feature-toolbar"><div><span class="eyebrow">SELECTED TRIALS</span><h4 id="real-world-feature-title">SEEK</h4></div><label class="real-speed">Playback <select id="real-world-speed" data-real-world-speed aria-label="Real-world video playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="4">4×</option></select></label></div>
+        <div id="real-world-feature" class="real-world-feature" role="group" aria-labelledby="real-world-feature-title"></div>
+        <p class="real-world-loading" id="real-world-loading" role="status">Loading real-world footage…</p>
+        <details class="real-world-gallery" id="real-world-gallery"><summary><span><strong id="real-world-gallery-label">Explore all real-world videos</strong><small id="real-world-clip-count">4 tasks · 3 methods</small></span><span class="gallery-toggle" aria-hidden="true">+</span></summary><p class="real-gallery-note">Choose a numbered clip under each method. Empty slots await footage. Playback speed applies to all real-world videos; each clip stays on its final frame when it ends.</p><div id="real-world-tasks"></div></details>
+        <noscript><p>Enable JavaScript to view the real-world videos. The results table is available above.</p></noscript>
+      </section>
+    </div></section>
+
+    <section id="resources" class="section-wrap section-space resources-section">
+      <h2 class="section-label"><span>05</span> FURTHER EXPLORATION</h2><div class="section-heading"><div><p class="section-subtitle">There is <span class="heading-soft">more to explore.</span></p><p>Read the research. Explore the benchmark.<br>Code and data links will be added as they become available.</p></div><span class="resource-mark" aria-hidden="true">H<span>↗</span></span></div>
+      <div class="resource-grid"><a class="resource-card" data-paper-link target="_blank" rel="noopener" href="https://arxiv.org/abs/2609.38886"><span class="resource-top">01 / PAPER <span>↗</span></span><h3>The research</h3><p>Benchmark, memory design,<br>and experimental findings.</p><span class="resource-state paper-status">Read the paper ↗</span></a><article class="resource-card" id="code-resource"><span class="resource-top">02 / CODE <span aria-hidden="true">⌘</span></span><h3>The implementation</h3><p>Training and evaluation code<br>for memory-aware manipulation.</p><span class="resource-state muted" id="code-resource-link">Coming soon <span class="small-dot"></span></span></article><article class="resource-card" id="data-resource"><span class="resource-top">03 / DATA <span aria-hidden="true">▦</span></span><h3>The benchmark</h3><p>Tasks and demonstrations<br>for hidden-state-dependent skills.</p><span class="resource-state muted" id="data-resource-link">Coming soon <span class="small-dot"></span></span></article></div>
+      <div class="citation" id="citation"><div><h3>Citation</h3><button class="button button-outline" type="button" id="copy-citation">Copy BibTeX</button></div><p class="citation-note" id="citation-note" hidden></p><pre><code id="citation-text">@misc{shi2026hide,
+  title = {Benchmarking and Enhancing Skill-Level Memory for Partially Observable Robotic Manipulation},
+  author = {Yansong Shi and Jiange Yang and Xijie Yang and Shaowei Zhang and Yuhan Zhu and Tao Lu and Limin Wang},
+  year = {2026},
+  eprint = {2609.38886},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO},
+  url = {https://arxiv.org/abs/2609.38886}
+}</code></pre><p id="copy-status" role="status"></p></div>
+    </section>
+  </main>
+  <footer class="site-footer section-wrap"><a class="wordmark" href="#">HIDE &amp; SEEK<span class="wordmark-dot">.</span></a><p>Beyond the current view.</p><a href="#main">Back to top <span aria-hidden="true">↑</span></a></footer>
+
+  <dialog id="task-dialog" class="task-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-header"><span class="eyebrow" id="dialog-category"></span><button class="close-dialog" type="button" aria-label="Close task demonstration">×</button></div>
+    <h2 id="dialog-title"></h2>
+    <p class="dialog-description" id="dialog-description"></p>
+    <div class="dialog-controls" role="group" aria-label="Synchronized camera playback">
+      <button id="dialog-play" class="button button-dark" type="button" aria-pressed="false" disabled>Play all</button>
+      <label class="sr-only" for="dialog-seek">Seek all three cameras</label><input id="dialog-seek" type="range" min="0" max="100" step="0.05" value="0" disabled>
+      <output id="dialog-time" for="dialog-seek">0:00 / —</output>
+    </div>
+    <div class="camera-grid">
+      <figure class="camera-pane"><figcaption><span>01</span> Front</figcaption><div class="camera-viewport"><video id="task-video-front" data-camera="front" muted playsinline preload="metadata" aria-label="Front camera"></video></div><p class="camera-error" role="status" hidden>This view could not be loaded.</p></figure>
+      <figure class="camera-pane"><figcaption><span>02</span> Left shoulder</figcaption><div class="camera-viewport camera-crop camera-left"><video data-camera="left" muted playsinline preload="metadata" aria-label="Left shoulder camera"></video></div><p class="camera-error" role="status" hidden>This view could not be loaded.</p></figure>
+      <figure class="camera-pane"><figcaption><span>03</span> Right shoulder</figcaption><div class="camera-viewport camera-crop camera-right"><video data-camera="right" muted playsinline preload="metadata" aria-label="Right shoulder camera"></video></div><p class="camera-error" role="status" hidden>This view could not be loaded.</p></figure>
+    </div>
+    <p class="dialog-note" id="dialog-note">Three synchronized views · 20 FPS · 2 s final-frame hold</p>
+    <section id="dialog-task-details" class="dialog-task-details" aria-labelledby="dialog-task-details-title">
+      <div class="dialog-detail-heading"><h3 id="dialog-task-details-title">About this task</h3><span>FROM THE APPENDIX</span></div>
+      <div id="dialog-task-stats" class="dialog-task-stats" role="group" aria-label="Task statistics"></div>
+      <div id="dialog-task-copy" class="dialog-task-copy"></div>
+      <div class="dialog-instruction-pattern"><h4>Instruction pattern</h4><p id="dialog-instruction-pattern"></p></div>
+    </section>
+  </dialog>
+  <dialog id="real-world-dialog" class="real-world-dialog" aria-labelledby="real-world-dialog-title">
+    <div class="dialog-header"><span class="eyebrow">REAL-WORLD TRIAL</span><button class="close-dialog" type="button" aria-label="Close real-world video">×</button></div>
+    <h2 id="real-world-dialog-title"></h2>
+    <video controls muted playsinline preload="metadata" aria-labelledby="real-world-dialog-title"></video>
+    <div class="real-dialog-footer"><span>Playback stops on the final frame.</span><label class="real-speed">Playback <select data-real-world-speed aria-label="Enlarged real-world video playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="4">4×</option></select></label></div>
+    <p id="real-world-dialog-error" role="status" hidden>This clip could not be loaded.</p>
+  </dialog>
+  <dialog id="figure-dialog" class="figure-dialog" aria-label="Model architecture"><button class="close-dialog" type="button" aria-label="Close architecture figure">×</button><img src="assets/figures/model-0927.webp" alt="Enlarged SEEK architecture."></dialog>
+</body>
+</html>

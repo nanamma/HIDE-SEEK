@@ -1,0 +1,1888 @@
+{
+  "fps": 20,
+  "episodes_per_task": 3,
+  "end_hold_seconds": 2,
+  "video_layouts": {
+    "front": "front camera",
+    "shoulder": "left shoulder | right shoulder"
+  },
+  "tasks": [
+    {
+      "id": "change_channel_times",
+      "descriptions": [
+        "turn the channel minus twice",
+        "change the television channel minus twice",
+        "point the remote at the tv and press the minus button to turn the channel minus twice",
+        "using the tv remote, ensure it is facing the television and press the minus button to increment the channel minus twice",
+        "find the minus button on the remote, rotate the remote such that it is pointed at the tv, then press the button to change the channel minus twice"
+      ],
+      "duration_seconds": 15.15,
+      "action_duration_seconds": 13.15,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/change_channel_times-front.mp4",
+      "shoulder_video": "assets/videos/change_channel_times-shoulder.mp4",
+      "poster": "assets/posters/change_channel_times.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "turn the channel minus twice",
+            "change the television channel minus twice",
+            "point the remote at the tv and press the minus button to turn the channel minus twice",
+            "using the tv remote, ensure it is facing the television and press the minus button to increment the channel minus twice",
+            "find the minus button on the remote, rotate the remote such that it is pointed at the tv, then press the button to change the channel minus twice"
+          ],
+          "duration_seconds": 15.15,
+          "action_duration_seconds": 13.15,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/change_channel_times-front.mp4",
+          "shoulder_video": "assets/videos/change_channel_times-shoulder.mp4",
+          "poster": "assets/posters/change_channel_times.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "shoulder_poster": "assets/posters/change_channel_times-shoulder.jpg",
+          "timing_edit": {
+            "source_duration_seconds": 15.15,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "turn the channel minus three times",
+            "change the television channel minus three times",
+            "point the remote at the tv and press the minus button to turn the channel minus three times",
+            "using the tv remote, ensure it is facing the television and press the minus button to increment the channel minus three times",
+            "find the minus button on the remote, rotate the remote such that it is pointed at the tv, then press the button to change the channel minus three times"
+          ],
+          "duration_seconds": 13.45,
+          "action_duration_seconds": 11.45,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/change_channel_times-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/change_channel_times-demo-02-shoulder.mp4",
+          "poster": "assets/posters/change_channel_times-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "shoulder_poster": "assets/posters/change_channel_times-demo-02-shoulder.jpg",
+          "timing_edit": {
+            "source_duration_seconds": 13.45,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "turn the channel up three times",
+            "change the television channel up three times",
+            "point the remote at the tv and press the plus button to turn the channel up three times",
+            "using the tv remote, ensure it is facing the television and press the plus button to increment the channel up three times",
+            "find the up button on the remote, rotate the remote such that it is pointed at the tv, then press the button to change the channel plus three times"
+          ],
+          "duration_seconds": 14.85,
+          "action_duration_seconds": 12.85,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/change_channel_times-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/change_channel_times-demo-03-shoulder.mp4",
+          "poster": "assets/posters/change_channel_times-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "shoulder_poster": "assets/posters/change_channel_times-demo-03-shoulder.jpg",
+          "timing_edit": {
+            "source_duration_seconds": 14.85,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "shoulder_poster": "assets/posters/change_channel_times-shoulder.jpg",
+      "timing_edit": {
+        "source_duration_seconds": 15.15,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "lift_and_check",
+      "descriptions": [
+        "lift blocks one by one to find the white chip underneath and remove it",
+        "search under the blocks for a white chip and take it away",
+        "flip over blocks until you find the white square and remove it",
+        "check under each block for a white chip and move it",
+        "locate the white chip hidden under a block and take it out",
+        "find the white square beneath a block and remove it"
+      ],
+      "duration_seconds": 8.8,
+      "action_duration_seconds": 6.8,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/lift_and_check-front.mp4",
+      "shoulder_video": "assets/videos/lift_and_check-shoulder.mp4",
+      "poster": "assets/posters/lift_and_check.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "lift blocks one by one to find the white chip underneath and remove it",
+            "search under the blocks for a white chip and take it away",
+            "flip over blocks until you find the white square and remove it",
+            "check under each block for a white chip and move it",
+            "locate the white chip hidden under a block and take it out",
+            "find the white square beneath a block and remove it"
+          ],
+          "duration_seconds": 8.8,
+          "action_duration_seconds": 6.8,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/lift_and_check-front.mp4",
+          "shoulder_video": "assets/videos/lift_and_check-shoulder.mp4",
+          "poster": "assets/posters/lift_and_check.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 8.8,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "lift blocks one by one to find the white chip underneath and remove it",
+            "search under the blocks for a white chip and take it away",
+            "flip over blocks until you find the white square and remove it",
+            "check under each block for a white chip and move it",
+            "locate the white chip hidden under a block and take it out",
+            "find the white square beneath a block and remove it"
+          ],
+          "duration_seconds": 13.05,
+          "action_duration_seconds": 11.05,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/lift_and_check-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/lift_and_check-demo-02-shoulder.mp4",
+          "poster": "assets/posters/lift_and_check-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 13.05,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "lift blocks one by one to find the white chip underneath and remove it",
+            "search under the blocks for a white chip and take it away",
+            "flip over blocks until you find the white square and remove it",
+            "check under each block for a white chip and move it",
+            "locate the white chip hidden under a block and take it out",
+            "find the white square beneath a block and remove it"
+          ],
+          "duration_seconds": 21.7,
+          "action_duration_seconds": 19.7,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/lift_and_check-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/lift_and_check-demo-03-shoulder.mp4",
+          "poster": "assets/posters/lift_and_check-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 21.7,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 8.8,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "light_bulb_in_out",
+      "descriptions": [
+        "screw in the light bulb and move it to the other holder",
+        "screw the light bulb from the holder into the lamp, then move it to a different holder",
+        "pick up the light bulb from the stand, lift it up to just above the lamp, screw it down into the lamp in a clockwise fashion, then place it into another stand",
+        "put the light bulb from the casing into the lamp and place it into another casing"
+      ],
+      "duration_seconds": 18.25,
+      "action_duration_seconds": 16.25,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/light_bulb_in_out-front.mp4",
+      "shoulder_video": "assets/videos/light_bulb_in_out-shoulder.mp4",
+      "poster": "assets/posters/light_bulb_in_out.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "screw in the light bulb and move it to the other holder",
+            "screw the light bulb from the holder into the lamp, then move it to a different holder",
+            "pick up the light bulb from the stand, lift it up to just above the lamp, screw it down into the lamp in a clockwise fashion, then place it into another stand",
+            "put the light bulb from the casing into the lamp and place it into another casing"
+          ],
+          "duration_seconds": 18.25,
+          "action_duration_seconds": 16.25,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/light_bulb_in_out-front.mp4",
+          "shoulder_video": "assets/videos/light_bulb_in_out-shoulder.mp4",
+          "poster": "assets/posters/light_bulb_in_out.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 18.25,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "screw in the light bulb and move it to the other holder",
+            "screw the light bulb from the holder into the lamp, then move it to a different holder",
+            "pick up the light bulb from the stand, lift it up to just above the lamp, screw it down into the lamp in a clockwise fashion, then place it into another stand",
+            "put the light bulb from the casing into the lamp and place it into another casing"
+          ],
+          "duration_seconds": 23.0,
+          "action_duration_seconds": 21.0,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/light_bulb_in_out-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/light_bulb_in_out-demo-02-shoulder.mp4",
+          "poster": "assets/posters/light_bulb_in_out-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 23.0,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "screw in the light bulb and move it to the other holder",
+            "screw the light bulb from the holder into the lamp, then move it to a different holder",
+            "pick up the light bulb from the stand, lift it up to just above the lamp, screw it down into the lamp in a clockwise fashion, then place it into another stand",
+            "put the light bulb from the casing into the lamp and place it into another casing"
+          ],
+          "duration_seconds": 17.85,
+          "action_duration_seconds": 15.85,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/light_bulb_in_out-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/light_bulb_in_out-demo-03-shoulder.mp4",
+          "poster": "assets/posters/light_bulb_in_out-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 17.85,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 18.25,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "pour_put_back",
+      "descriptions": [
+        "pour liquid from the yellow cup to the cyan cup, then place the yellow cup on the other coaster",
+        "pour the liquid from the yellow mug into the cyan mug, and put the yellow mug back on the other patch",
+        "transfer the contents from the yellow mug to the cyan one, then return the yellow mug to the other mat",
+        "pick up the yellow cup, pour its liquid into the cyan cup, and place it on the other coaster afterward"
+      ],
+      "duration_seconds": 16.95,
+      "action_duration_seconds": 14.95,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/pour_put_back-front.mp4",
+      "shoulder_video": "assets/videos/pour_put_back-shoulder.mp4",
+      "poster": "assets/posters/pour_put_back.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "pour liquid from the yellow cup to the cyan cup, then place the yellow cup on the other coaster",
+            "pour the liquid from the yellow mug into the cyan mug, and put the yellow mug back on the other patch",
+            "transfer the contents from the yellow mug to the cyan one, then return the yellow mug to the other mat",
+            "pick up the yellow cup, pour its liquid into the cyan cup, and place it on the other coaster afterward"
+          ],
+          "duration_seconds": 16.95,
+          "action_duration_seconds": 14.95,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/pour_put_back-front.mp4",
+          "shoulder_video": "assets/videos/pour_put_back-shoulder.mp4",
+          "poster": "assets/posters/pour_put_back.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 16.95,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "pour liquid from the black cup to the white cup, then place the black cup on the other coaster",
+            "pour the liquid from the black mug into the white mug, and put the black mug back on the other patch",
+            "transfer the contents from the black mug to the white one, then return the black mug to the other mat",
+            "pick up the black cup, pour its liquid into the white cup, and place it on the other coaster afterward"
+          ],
+          "duration_seconds": 15.85,
+          "action_duration_seconds": 13.85,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/pour_put_back-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/pour_put_back-demo-02-shoulder.mp4",
+          "poster": "assets/posters/pour_put_back-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 15.85,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "pour liquid from the blue cup to the navy cup, then place the blue cup on the other coaster",
+            "pour the liquid from the blue mug into the navy mug, and put the blue mug back on the other patch",
+            "transfer the contents from the blue mug to the navy one, then return the blue mug to the other mat",
+            "pick up the blue cup, pour its liquid into the navy cup, and place it on the other coaster afterward"
+          ],
+          "duration_seconds": 17.05,
+          "action_duration_seconds": 15.05,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/pour_put_back-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/pour_put_back-demo-03-shoulder.mp4",
+          "poster": "assets/posters/pour_put_back-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 17.05,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 16.95,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "push_button_times",
+      "descriptions": [
+        "push the maroon button twice",
+        "press the maroon button twice",
+        "push down the button with the maroon base twice"
+      ],
+      "duration_seconds": 7.2,
+      "action_duration_seconds": 5.2,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/push_button_times-front.mp4",
+      "shoulder_video": "assets/videos/push_button_times-shoulder.mp4",
+      "poster": "assets/posters/push_button_times.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "push the maroon button twice",
+            "press the maroon button twice",
+            "push down the button with the maroon base twice"
+          ],
+          "duration_seconds": 7.2,
+          "action_duration_seconds": 5.2,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/push_button_times-front.mp4",
+          "shoulder_video": "assets/videos/push_button_times-shoulder.mp4",
+          "poster": "assets/posters/push_button_times.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 7.2,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "push the maroon button five times",
+            "press the maroon button five times",
+            "push down the button with the maroon base five times"
+          ],
+          "duration_seconds": 10.9,
+          "action_duration_seconds": 8.9,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/push_button_times-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/push_button_times-demo-02-shoulder.mp4",
+          "poster": "assets/posters/push_button_times-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 10.9,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "push the maroon button five times",
+            "press the maroon button five times",
+            "push down the button with the maroon base five times"
+          ],
+          "duration_seconds": 12.6,
+          "action_duration_seconds": 10.6,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/push_button_times-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/push_button_times-demo-03-shoulder.mp4",
+          "poster": "assets/posters/push_button_times-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 12.6,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 7.2,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "reopen_drawer",
+      "descriptions": [
+        "Close the opened drawer, push the button, and then open the previous drawer again"
+      ],
+      "duration_seconds": 18.5,
+      "action_duration_seconds": 16.5,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/reopen_drawer-front.mp4",
+      "shoulder_video": "assets/videos/reopen_drawer-shoulder.mp4",
+      "poster": "assets/posters/reopen_drawer.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "Close the opened drawer, push the button, and then open the previous drawer again"
+          ],
+          "duration_seconds": 18.5,
+          "action_duration_seconds": 16.5,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/reopen_drawer-front.mp4",
+          "shoulder_video": "assets/videos/reopen_drawer-shoulder.mp4",
+          "poster": "assets/posters/reopen_drawer.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 18.5,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "Close the opened drawer, push the button, and then open the previous drawer again"
+          ],
+          "duration_seconds": 19.0,
+          "action_duration_seconds": 17.0,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/reopen_drawer-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/reopen_drawer-demo-02-shoulder.mp4",
+          "poster": "assets/posters/reopen_drawer-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 19.0,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "Close the opened drawer, push the button, and then open the previous drawer again"
+          ],
+          "duration_seconds": 21.8,
+          "action_duration_seconds": 19.8,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/reopen_drawer-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/reopen_drawer-demo-03-shoulder.mp4",
+          "poster": "assets/posters/reopen_drawer-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 21.8,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 18.5,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "search_boxes",
+      "descriptions": [
+        "take shoes out of box",
+        "open the shoe box and take the shoes out",
+        "put the shoes found inside the box on the table",
+        "set the shoes down on the table",
+        "pick up the shoes from the box and put them down",
+        "grasp the edge of the box lid to open it, then grasp each shoe, lifting up out of the shoe box and leaving them down on the table"
+      ],
+      "duration_seconds": 42.4,
+      "action_duration_seconds": 40.4,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/search_boxes-front.mp4",
+      "shoulder_video": "assets/videos/search_boxes-shoulder.mp4",
+      "poster": "assets/posters/search_boxes.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "take shoes out of box",
+            "open the shoe box and take the shoes out",
+            "put the shoes found inside the box on the table",
+            "set the shoes down on the table",
+            "pick up the shoes from the box and put them down",
+            "grasp the edge of the box lid to open it, then grasp each shoe, lifting up out of the shoe box and leaving them down on the table"
+          ],
+          "duration_seconds": 42.4,
+          "action_duration_seconds": 40.4,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_boxes-front.mp4",
+          "shoulder_video": "assets/videos/search_boxes-shoulder.mp4",
+          "poster": "assets/posters/search_boxes.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 42.4,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "take shoes out of box",
+            "open the shoe box and take the shoes out",
+            "put the shoes found inside the box on the table",
+            "set the shoes down on the table",
+            "pick up the shoes from the box and put them down",
+            "grasp the edge of the box lid to open it, then grasp each shoe, lifting up out of the shoe box and leaving them down on the table"
+          ],
+          "duration_seconds": 25.85,
+          "action_duration_seconds": 23.85,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_boxes-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/search_boxes-demo-02-shoulder.mp4",
+          "poster": "assets/posters/search_boxes-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 25.85,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "take shoes out of box",
+            "open the shoe box and take the shoes out",
+            "put the shoes found inside the box on the table",
+            "set the shoes down on the table",
+            "pick up the shoes from the box and put them down",
+            "grasp the edge of the box lid to open it, then grasp each shoe, lifting up out of the shoe box and leaving them down on the table"
+          ],
+          "duration_seconds": 40.7,
+          "action_duration_seconds": 38.7,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_boxes-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/search_boxes-demo-03-shoulder.mp4",
+          "poster": "assets/posters/search_boxes-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 40.7,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 42.4,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "search_cup_from_cabinet",
+      "descriptions": [
+        "take out a cup from the cabinet",
+        "open the the cabinet and get the cup",
+        "grasping the handle, open the cabinet, then retrieve the cup",
+        "slide open the door on the cabinet and put take the cup out",
+        "remove the cup from the cabinet"
+      ],
+      "duration_seconds": 11.95,
+      "action_duration_seconds": 9.95,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/search_cup_from_cabinet-front.mp4",
+      "shoulder_video": "assets/videos/search_cup_from_cabinet-shoulder.mp4",
+      "poster": "assets/posters/search_cup_from_cabinet.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "take out a cup from the cabinet",
+            "open the the cabinet and get the cup",
+            "grasping the handle, open the cabinet, then retrieve the cup",
+            "slide open the door on the cabinet and put take the cup out",
+            "remove the cup from the cabinet"
+          ],
+          "duration_seconds": 11.95,
+          "action_duration_seconds": 9.95,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_cup_from_cabinet-front.mp4",
+          "shoulder_video": "assets/videos/search_cup_from_cabinet-shoulder.mp4",
+          "poster": "assets/posters/search_cup_from_cabinet.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 11.95,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "take out a cup from the cabinet",
+            "open the the cabinet and get the cup",
+            "grasping the handle, open the cabinet, then retrieve the cup",
+            "slide open the door on the cabinet and put take the cup out",
+            "remove the cup from the cabinet"
+          ],
+          "duration_seconds": 12.65,
+          "action_duration_seconds": 10.65,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_cup_from_cabinet-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/search_cup_from_cabinet-demo-02-shoulder.mp4",
+          "poster": "assets/posters/search_cup_from_cabinet-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 12.65,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "take out a cup from the cabinet",
+            "open the the cabinet and get the cup",
+            "grasping the handle, open the cabinet, then retrieve the cup",
+            "slide open the door on the cabinet and put take the cup out",
+            "remove the cup from the cabinet"
+          ],
+          "duration_seconds": 12.9,
+          "action_duration_seconds": 10.9,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_cup_from_cabinet-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/search_cup_from_cabinet-demo-03-shoulder.mp4",
+          "poster": "assets/posters/search_cup_from_cabinet-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 12.9,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 11.95,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "search_drawer",
+      "descriptions": [
+        "take item out of the drawer",
+        "search the drawer and take out the item"
+      ],
+      "duration_seconds": 16.8,
+      "action_duration_seconds": 14.8,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/search_drawer-front.mp4",
+      "shoulder_video": "assets/videos/search_drawer-shoulder.mp4",
+      "poster": "assets/posters/search_drawer.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "take item out of the drawer",
+            "search the drawer and take out the item"
+          ],
+          "duration_seconds": 16.8,
+          "action_duration_seconds": 14.8,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_drawer-front.mp4",
+          "shoulder_video": "assets/videos/search_drawer-shoulder.mp4",
+          "poster": "assets/posters/search_drawer.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 16.8,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "take item out of the drawer",
+            "search the drawer and take out the item"
+          ],
+          "duration_seconds": 20.65,
+          "action_duration_seconds": 18.65,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_drawer-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/search_drawer-demo-02-shoulder.mp4",
+          "poster": "assets/posters/search_drawer-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 20.65,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "take item out of the drawer",
+            "search the drawer and take out the item"
+          ],
+          "duration_seconds": 17.2,
+          "action_duration_seconds": 15.2,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/search_drawer-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/search_drawer-demo-03-shoulder.mp4",
+          "poster": "assets/posters/search_drawer-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 17.2,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 16.8,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "stack_blocks",
+      "descriptions": [
+        "stack 2 maroon blocks",
+        "place 2 of the maroon cubes on top of each other",
+        "pick up and set down 2 maroon blocks on top of each other",
+        "build a tall tower out of 2 maroon cubes",
+        "arrange 2 maroon blocks in a vertical stack on the table top",
+        "set 2 maroon cubes on top of each other"
+      ],
+      "duration_seconds": 15.8,
+      "action_duration_seconds": 13.8,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/stack_blocks-front.mp4",
+      "shoulder_video": "assets/videos/stack_blocks-shoulder.mp4",
+      "poster": "assets/posters/stack_blocks.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "stack 2 maroon blocks",
+            "place 2 of the maroon cubes on top of each other",
+            "pick up and set down 2 maroon blocks on top of each other",
+            "build a tall tower out of 2 maroon cubes",
+            "arrange 2 maroon blocks in a vertical stack on the table top",
+            "set 2 maroon cubes on top of each other"
+          ],
+          "duration_seconds": 15.8,
+          "action_duration_seconds": 13.8,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_blocks-front.mp4",
+          "shoulder_video": "assets/videos/stack_blocks-shoulder.mp4",
+          "poster": "assets/posters/stack_blocks.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 15.8,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "stack 2 white blocks",
+            "place 2 of the white cubes on top of each other",
+            "pick up and set down 2 white blocks on top of each other",
+            "build a tall tower out of 2 white cubes",
+            "arrange 2 white blocks in a vertical stack on the table top",
+            "set 2 white cubes on top of each other"
+          ],
+          "duration_seconds": 14.9,
+          "action_duration_seconds": 12.9,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_blocks-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/stack_blocks-demo-02-shoulder.mp4",
+          "poster": "assets/posters/stack_blocks-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 14.9,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "stack 4 violet blocks",
+            "place 4 of the violet cubes on top of each other",
+            "pick up and set down 4 violet blocks on top of each other",
+            "build a tall tower out of 4 violet cubes",
+            "arrange 4 violet blocks in a vertical stack on the table top",
+            "set 4 violet cubes on top of each other"
+          ],
+          "duration_seconds": 24.4,
+          "action_duration_seconds": 22.4,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_blocks-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/stack_blocks-demo-03-shoulder.mp4",
+          "poster": "assets/posters/stack_blocks-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 24.4,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 15.8,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "stack_blocks_new",
+      "descriptions": [
+        "put 2 lime blocks into the rectangular container in the center",
+        "place 2 of the lime cubes inside the open-top box at the middle of the table",
+        "pick up and drop 2 lime blocks into the central rectangular bin",
+        "put all 2 lime blocks into the open container located in the center",
+        "move 2 lime cubes into the middle rectangular receptacle",
+        "deposit 2 lime blocks into the central open-top box"
+      ],
+      "duration_seconds": 17.15,
+      "action_duration_seconds": 15.15,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/stack_blocks_new-front.mp4",
+      "shoulder_video": "assets/videos/stack_blocks_new-shoulder.mp4",
+      "poster": "assets/posters/stack_blocks_new.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "put 2 lime blocks into the rectangular container in the center",
+            "place 2 of the lime cubes inside the open-top box at the middle of the table",
+            "pick up and drop 2 lime blocks into the central rectangular bin",
+            "put all 2 lime blocks into the open container located in the center",
+            "move 2 lime cubes into the middle rectangular receptacle",
+            "deposit 2 lime blocks into the central open-top box"
+          ],
+          "duration_seconds": 17.15,
+          "action_duration_seconds": 15.15,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_blocks_new-front.mp4",
+          "shoulder_video": "assets/videos/stack_blocks_new-shoulder.mp4",
+          "poster": "assets/posters/stack_blocks_new.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 17.15,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "put 2 blue blocks into the rectangular container in the center",
+            "place 2 of the blue cubes inside the open-top box at the middle of the table",
+            "pick up and drop 2 blue blocks into the central rectangular bin",
+            "put all 2 blue blocks into the open container located in the center",
+            "move 2 blue cubes into the middle rectangular receptacle",
+            "deposit 2 blue blocks into the central open-top box"
+          ],
+          "duration_seconds": 15.3,
+          "action_duration_seconds": 13.3,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_blocks_new-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/stack_blocks_new-demo-02-shoulder.mp4",
+          "poster": "assets/posters/stack_blocks_new-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 15.3,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "put 2 red blocks into the rectangular container in the center",
+            "place 2 of the red cubes inside the open-top box at the middle of the table",
+            "pick up and drop 2 red blocks into the central rectangular bin",
+            "put all 2 red blocks into the open container located in the center",
+            "move 2 red cubes into the middle rectangular receptacle",
+            "deposit 2 red blocks into the central open-top box"
+          ],
+          "duration_seconds": 16.1,
+          "action_duration_seconds": 14.1,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_blocks_new-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/stack_blocks_new-demo-03-shoulder.mp4",
+          "poster": "assets/posters/stack_blocks_new-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 16.1,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 17.15,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "stack_cups_new",
+      "descriptions": [
+        "stack one cup on top of the maroon cup",
+        "place a single cup onto the maroon cup",
+        "put one cup on top of the maroon cup",
+        "pick up one cup and set it into the maroon cup",
+        "create a stack with the maroon cup as the base and one cup on top",
+        "keeping the maroon cup on the table, place one cup onto it"
+      ],
+      "duration_seconds": 9.25,
+      "action_duration_seconds": 7.25,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/stack_cups_new-front.mp4",
+      "shoulder_video": "assets/videos/stack_cups_new-shoulder.mp4",
+      "poster": "assets/posters/stack_cups_new.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "stack one cup on top of the maroon cup",
+            "place a single cup onto the maroon cup",
+            "put one cup on top of the maroon cup",
+            "pick up one cup and set it into the maroon cup",
+            "create a stack with the maroon cup as the base and one cup on top",
+            "keeping the maroon cup on the table, place one cup onto it"
+          ],
+          "duration_seconds": 9.25,
+          "action_duration_seconds": 7.25,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_cups_new-front.mp4",
+          "shoulder_video": "assets/videos/stack_cups_new-shoulder.mp4",
+          "poster": "assets/posters/stack_cups_new.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 9.25,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "stack one cup on top of the magenta cup",
+            "place a single cup onto the magenta cup",
+            "put one cup on top of the magenta cup",
+            "pick up one cup and set it into the magenta cup",
+            "create a stack with the magenta cup as the base and one cup on top",
+            "keeping the magenta cup on the table, place one cup onto it"
+          ],
+          "duration_seconds": 10.15,
+          "action_duration_seconds": 8.15,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_cups_new-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/stack_cups_new-demo-02-shoulder.mp4",
+          "poster": "assets/posters/stack_cups_new-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 10.15,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "stack one cup on top of the teal cup",
+            "place a single cup onto the teal cup",
+            "put one cup on top of the teal cup",
+            "pick up one cup and set it into the teal cup",
+            "create a stack with the teal cup as the base and one cup on top",
+            "keeping the teal cup on the table, place one cup onto it"
+          ],
+          "duration_seconds": 10.6,
+          "action_duration_seconds": 8.6,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/stack_cups_new-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/stack_cups_new-demo-03-shoulder.mp4",
+          "poster": "assets/posters/stack_cups_new-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 10.6,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 9.25,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "swap_square_pegs",
+      "descriptions": [
+        "swap the positions of the two rings",
+        "exchange the locations of the two rings",
+        "switch the two rings"
+      ],
+      "duration_seconds": 15.45,
+      "action_duration_seconds": 13.45,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/swap_square_pegs-front.mp4",
+      "shoulder_video": "assets/videos/swap_square_pegs-shoulder.mp4",
+      "poster": "assets/posters/swap_square_pegs.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "swap the positions of the two rings",
+            "exchange the locations of the two rings",
+            "switch the two rings"
+          ],
+          "duration_seconds": 15.45,
+          "action_duration_seconds": 13.45,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/swap_square_pegs-front.mp4",
+          "shoulder_video": "assets/videos/swap_square_pegs-shoulder.mp4",
+          "poster": "assets/posters/swap_square_pegs.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 15.45,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "swap the positions of the two rings",
+            "exchange the locations of the two rings",
+            "switch the two rings"
+          ],
+          "duration_seconds": 22.65,
+          "action_duration_seconds": 20.65,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/swap_square_pegs-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/swap_square_pegs-demo-02-shoulder.mp4",
+          "poster": "assets/posters/swap_square_pegs-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 22.65,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "swap the positions of the two rings",
+            "exchange the locations of the two rings",
+            "switch the two rings"
+          ],
+          "duration_seconds": 17.35,
+          "action_duration_seconds": 15.35,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/swap_square_pegs-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/swap_square_pegs-demo-03-shoulder.mp4",
+          "poster": "assets/posters/swap_square_pegs-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 17.35,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 15.45,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "weighing_on_off",
+      "descriptions": [
+        "weigh the pepper and put it in another container",
+        "measure the pepper by weight and place it into another container",
+        "weigh out the pepper and move it to a new container"
+      ],
+      "duration_seconds": 11.55,
+      "action_duration_seconds": 9.55,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/weighing_on_off-front.mp4",
+      "shoulder_video": "assets/videos/weighing_on_off-shoulder.mp4",
+      "poster": "assets/posters/weighing_on_off.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "weigh the pepper and put it in another container",
+            "measure the pepper by weight and place it into another container",
+            "weigh out the pepper and move it to a new container"
+          ],
+          "duration_seconds": 11.55,
+          "action_duration_seconds": 9.55,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/weighing_on_off-front.mp4",
+          "shoulder_video": "assets/videos/weighing_on_off-shoulder.mp4",
+          "poster": "assets/posters/weighing_on_off.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 11.55,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "weigh the pepper and put it in another container",
+            "measure the pepper by weight and place it into another container",
+            "weigh out the pepper and move it to a new container"
+          ],
+          "duration_seconds": 12.7,
+          "action_duration_seconds": 10.7,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/weighing_on_off-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/weighing_on_off-demo-02-shoulder.mp4",
+          "poster": "assets/posters/weighing_on_off-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 12.7,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "weigh the pepper and put it in another container",
+            "measure the pepper by weight and place it into another container",
+            "weigh out the pepper and move it to a new container"
+          ],
+          "duration_seconds": 12.15,
+          "action_duration_seconds": 10.15,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/weighing_on_off-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/weighing_on_off-demo-03-shoulder.mp4",
+          "poster": "assets/posters/weighing_on_off-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 12.15,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 11.55,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    },
+    {
+      "id": "wipe_desk_rubbish",
+      "descriptions": [
+        "wipe dirt off the desk",
+        "use the sponge to clean up the desk",
+        "remove the dirt from the desk",
+        "grip the sponge and wipe it back and forth over any dirt you see",
+        "clean up the mess",
+        "wipe the dirt up"
+      ],
+      "duration_seconds": 19.0,
+      "action_duration_seconds": 17.0,
+      "end_hold_seconds": 2,
+      "front_video": "assets/videos/wipe_desk_rubbish-front.mp4",
+      "shoulder_video": "assets/videos/wipe_desk_rubbish-shoulder.mp4",
+      "poster": "assets/posters/wipe_desk_rubbish.jpg",
+      "dimensions": {
+        "front": [
+          128,
+          128
+        ],
+        "shoulder": [
+          256,
+          128
+        ]
+      },
+      "episodes": [
+        {
+          "number": 1,
+          "descriptions": [
+            "wipe dirt off the desk",
+            "use the sponge to clean up the desk",
+            "remove the dirt from the desk",
+            "grip the sponge and wipe it back and forth over any dirt you see",
+            "clean up the mess",
+            "wipe the dirt up"
+          ],
+          "duration_seconds": 19.0,
+          "action_duration_seconds": 17.0,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/wipe_desk_rubbish-front.mp4",
+          "shoulder_video": "assets/videos/wipe_desk_rubbish-shoulder.mp4",
+          "poster": "assets/posters/wipe_desk_rubbish.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 19.0,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 2,
+          "descriptions": [
+            "wipe dirt off the desk",
+            "use the sponge to clean up the desk",
+            "remove the dirt from the desk",
+            "grip the sponge and wipe it back and forth over any dirt you see",
+            "clean up the mess",
+            "wipe the dirt up"
+          ],
+          "duration_seconds": 14.95,
+          "action_duration_seconds": 12.95,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/wipe_desk_rubbish-demo-02-front.mp4",
+          "shoulder_video": "assets/videos/wipe_desk_rubbish-demo-02-shoulder.mp4",
+          "poster": "assets/posters/wipe_desk_rubbish-demo-02.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 14.95,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        },
+        {
+          "number": 3,
+          "descriptions": [
+            "wipe dirt off the desk",
+            "use the sponge to clean up the desk",
+            "remove the dirt from the desk",
+            "grip the sponge and wipe it back and forth over any dirt you see",
+            "clean up the mess",
+            "wipe the dirt up"
+          ],
+          "duration_seconds": 14.05,
+          "action_duration_seconds": 12.05,
+          "end_hold_seconds": 2,
+          "front_video": "assets/videos/wipe_desk_rubbish-demo-03-front.mp4",
+          "shoulder_video": "assets/videos/wipe_desk_rubbish-demo-03-shoulder.mp4",
+          "poster": "assets/posters/wipe_desk_rubbish-demo-03.jpg",
+          "dimensions": {
+            "front": [
+              128,
+              128
+            ],
+            "shoulder": [
+              256,
+              128
+            ]
+          },
+          "timing_edit": {
+            "source_duration_seconds": 14.05,
+            "removed_seconds": 0.0,
+            "kind": "shortened still intervals"
+          }
+        }
+      ],
+      "timing_edit": {
+        "source_duration_seconds": 19.0,
+        "removed_seconds": 0.0,
+        "kind": "shortened still intervals"
+      }
+    }
+  ],
+  "timing_edit": {
+    "kind": "shortened still intervals",
+    "synchronized_views": true,
+    "settings": {
+      "min_still": 1.0,
+      "keep_still": 0.3,
+      "protect_end": 2.0,
+      "mean_threshold": 0.3,
+      "tile_threshold": 1.0,
+      "pixel_threshold": 8.0,
+      "changed_fraction": 0.001,
+      "analysis_width": 320,
+      "tile_size": 16,
+      "crf": 18,
+      "max_width": 0,
+      "preset": "fast",
+      "reencode": false
+    }
+  }
+}
